@@ -1,4 +1,3 @@
-
 import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pad_sequence
@@ -7,10 +6,8 @@ from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 from collator import build_collator
 
-
 model_path = ''
 data_path = ''
-
 
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_path,
                                                            device_map='auto',
@@ -43,7 +40,6 @@ split_dataset = dataset.train_test_split(test_size=0.2,seed=42)
 
 train_dataset = split_dataset['train']
 test_dataset = split_dataset['test']
-
 
 training_args = TrainingArguments(
     output_dir="./checkpoints",
