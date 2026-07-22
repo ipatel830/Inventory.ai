@@ -14,7 +14,7 @@ logging.basicConfig(
 )
 
 model_path = "Qwen/Qwen2.5-VL-7B-Instruct"
-data_path = 'prepared_dataset'
+data_path = 'data/prepared_dataset'
 
 bnb_config = BitsAndBytesConfig(
     load_in_8bit=True
