@@ -1,18 +1,23 @@
-import torch
+import os
 import torch.nn as nn
-from torch.nn.utils.rnn import pad_sequence
 from transformers import AutoProcessor, Trainer, Qwen2_5_VLForConditionalGeneration, TrainingArguments,BitsAndBytesConfig
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 from collator import build_collator
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    handlers=[logging.FileHandler("train.log"), logging.StreamHandler()]
+)
 
 model_path = "Qwen/Qwen2.5-VL-7B-Instruct"
 data_path = 'prepared_dataset'
 
 bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type='nf4',
-    bnb_4bit_compute_dtype=torch.float16,
+    load_in_8bit=True
 )
 
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_path,
@@ -31,11 +36,6 @@ lora_config = LoraConfig(
     lora_dropout=0.05,
     task_type="CAUSAL_LM"
 )
-
-
-class CastOutputToFloat(nn.Sequential):
-    def forward(self,x):
-        return super().forward(x)
     
 model  = get_peft_model(model,lora_config)
 
@@ -49,8 +49,8 @@ test_dataset = split_dataset['test']
 
 training_args = TrainingArguments(
     output_dir="./checkpoints",
-    per_device_train_batch_size=1,
-    gradient_accumulation_steps=8,
+    per_device_train_batch_size=2,
+    gradient_accumulation_steps=4,
     num_train_epochs=4,
     learning_rate=2e-4,
     logging_steps=10,
@@ -58,7 +58,9 @@ training_args = TrainingArguments(
     remove_unused_columns=False,
     optim='paged_adamw_8bit',
     eval_steps=50,
-    save_strategy="epoch",
+    save_strategy="steps",
+    save_steps=25,
+    save_total_limit=3,
     bf16=True,
     report_to="none"
 )
@@ -70,6 +72,14 @@ trainer = Trainer(model=model,
                     eval_dataset=test_dataset,
                     )
 
-trainer.train()
+
+
+checkpoint = None
+if os.path.isdir("./checkpoints") and len(os.listdir("./checkpoints")) > 0:
+    checkpoint = True
+   
+trainer.train(resume_from_checkpoint=checkpoint)
+
+
 
 model.save_pretrained("./final_lora_adapter")
