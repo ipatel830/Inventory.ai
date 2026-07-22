@@ -1,17 +1,23 @@
 import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pad_sequence
-from transformers import AutoProcessor, Trainer, Qwen2_5_VLForConditionalGeneration, TrainingArguments
+from transformers import AutoProcessor, Trainer, Qwen2_5_VLForConditionalGeneration, TrainingArguments,BitsAndBytesConfig
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 from collator import build_collator
 
-model_path = ''
-data_path = ''
+model_path = "Qwen/Qwen2.5-VL-7B-Instruct"
+data_path = 'prepared_dataset'
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type='nf4',
+    bnb_4bit_compute_dtype=torch.float16,
+)
 
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(model_path,
                                                            device_map='auto',
-                                                           torch_dtype=torch.float16,
+                                                           quantization_config=bnb_config,
                                                         )
 processor = AutoProcessor.from_pretrained(model_path)
 
@@ -19,7 +25,7 @@ model.gradient_checkpointing_enable()
 model.enable_input_require_grads()
 
 lora_config = LoraConfig(
-    r=16,
+    r=8,
     lora_alpha=32,
     target_modules = ['q_proj','k_proj','v_proj','o_proj'],
     lora_dropout=0.05,
@@ -49,6 +55,8 @@ training_args = TrainingArguments(
     learning_rate=2e-4,
     logging_steps=10,
     eval_strategy="steps",
+    remove_unused_columns=False,
+    optim='paged_adamw_8bit',
     eval_steps=50,
     save_strategy="epoch",
     bf16=True,

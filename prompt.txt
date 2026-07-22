@@ -12,7 +12,7 @@ Schema:
   "line_items": [
     {
       "item_id": string or null,
-      "upc_or_sku": string or null,
+      "upc_or_sku": upc_or_sku: the barcode/identification number for the product. Look specifically for a column labeled "UPC", "SKU", "Item #", "Product Code", "Barcode", or similar. This is usually a long numeric string (8-13 digits). If such a column exists on the invoice, you MUST extract its value — do not leave this null unless no such column or number is present anywhere on the invoice.,
       "name": string,
       "receipt_alias": string or null,
       "department": "Liquor",
@@ -49,6 +49,6 @@ Field definitions:
 - supplier: the specific supplier/brand-house name for that line item, if different from the overall distributor. If not distinguished, use the same value as distributor.
  
 Rules:
-- If a field is not visible or not present on the invoice, use null. Never invent or guess values.
+- Before marking any field as null, check the invoice for a column or label that corresponds to it, even if the wording differs slightly from this schema. Only use null if the information is genuinely absent from the document.
 - Numbers must be plain numbers (no currency symbols, no commas).
 - Return ONLY the JSON object, nothing else — no markdown code fences, no commentary.

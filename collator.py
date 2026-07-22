@@ -1,5 +1,6 @@
 import torch
 from torch.nn.utils.rnn import pad_sequence
+from PIL import Image
 
 with open('prompt.txt','r') as f:
     SYSTEM_PROMPT = f.read()
@@ -30,7 +31,7 @@ def build_collator(processor):
             prompt_text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
  
             prompt_inputs = processor(
-                images=example["image"],
+                images=Image.open(example['image_path']).convert('RGB'),
                 text=prompt_text,
                 return_tensors="pt"
             )
@@ -51,15 +52,15 @@ def build_collator(processor):
  
             input_ids_list.append(full_ids)
             labels_list.append(full_labels)
-            pixel_values_list.append(prompt_inputs["pixel_values"][0])
-            image_grid_thw_list.append(prompt_inputs["image_grid_thw"][0])
+            pixel_values_list.append(prompt_inputs["pixel_values"])
+            image_grid_thw_list.append(prompt_inputs["image_grid_thw"])
  
         input_ids = pad_sequence(input_ids_list, batch_first=True, padding_value=pad_id)
         labels = pad_sequence(labels_list, batch_first=True, padding_value=-100)
         attention_mask = (input_ids != pad_id).long()
  
         pixel_values = torch.cat(pixel_values_list, dim=0)
-        image_grid_thw = torch.stack(image_grid_thw_list, dim=0)
+        image_grid_thw = torch.cat(image_grid_thw_list, dim=0)
  
         return {
             "input_ids": input_ids,

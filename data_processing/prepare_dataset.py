@@ -7,15 +7,19 @@ import logging
 import anthropic
 from datasets import Dataset
 
+
+
 IMAGE_DIR = "../data_set"
 LABELS_DIR = "../labels"
 DATASET_OUT = "../prepared_dataset"
-PROMPT_PATH = "../extraction_prompt.txt"
+PROMPT_PATH = "../prompt.txt"
 LOG_PATH = "prepare_dataset.log"
 
 MODEL_NAME = "claude-sonnet-4-6"
 MAX_RETRIES = 5
 BASE_DELAY = 15
+
+
 
 logging.basicConfig(
     level=logging.INFO,
@@ -58,7 +62,7 @@ def call_claude(image_path):
         try:
             response = client.messages.create(
                 model=MODEL_NAME,
-                max_tokens=2048,
+                max_tokens=8192,
                 messages=[
                     {
                         "role": "user",
@@ -93,7 +97,7 @@ def call_claude(image_path):
             attempt += 1
         except Exception as e:
             logger.error(f"failed to parse output for {image_path}: {e}")
-            return None, str(e)
+            return None, raw
     logger.error(f"giving up on {image_path} after {MAX_RETRIES} attempts")
     return None, "max retries exceeded"
 
@@ -101,8 +105,7 @@ def main():
     os.makedirs(LABELS_DIR, exist_ok=True)
 
     valid_ext = (".jpg", ".jpeg", ".png")
-    images = [f for f in sorted(os.listdir(IMAGE_DIR)) if f.lower().endswith(valid_ext)]
-
+    images = [f for f in sorted(os.listdir(IMAGE_DIR)) if f.lower().endswith(valid_ext) and not f.startswith("._")]
     if not images:
         logger.error(f"no images found in {IMAGE_DIR}")
         sys.exit(1)
@@ -114,7 +117,7 @@ def main():
     for filename in images:
         base_name = os.path.splitext(filename)[0]
         label_path = os.path.join(LABELS_DIR, base_name + ".json")
-        image_path = os.path.join(IMAGE_DIR, filename)
+        image_path = os.path.abspath(os.path.join(IMAGE_DIR, filename))
 
         if os.path.exists(label_path):
             with open(label_path, "r") as f:

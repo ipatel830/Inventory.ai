@@ -1,0 +1,2410 @@
+2026-07-20 16:41:33,413 INFO found 328 images to process
+2026-07-20 16:41:33,413 INFO processing 10.jpg
+2026-07-20 16:41:33,669 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-07-20 16:41:33,670 WARNING api error on ../data_set/10.jpg: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011CdDxWXSmPsgThdgkLfP2T'}, waiting 15s (attempt 1)
+2026-07-20 16:44:57,976 INFO found 328 images to process
+2026-07-20 16:44:57,976 INFO processing 10.jpg
+2026-07-20 16:45:16,431 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:45:16,454 INFO labeled 10.jpg
+2026-07-20 16:45:16,454 INFO processing 100.jpg
+2026-07-20 16:45:53,417 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:45:53,418 INFO labeled 100.jpg
+2026-07-20 16:45:53,418 INFO processing 101.jpg
+2026-07-20 16:46:21,234 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:46:21,236 INFO labeled 101.jpg
+2026-07-20 16:46:21,236 INFO processing 102.jpg
+2026-07-20 16:46:55,673 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:46:55,675 INFO labeled 102.jpg
+2026-07-20 16:46:55,675 INFO processing 103.jpg
+2026-07-20 16:47:26,799 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:47:26,800 INFO labeled 103.jpg
+2026-07-20 16:47:26,800 INFO processing 104.jpg
+2026-07-20 16:48:05,705 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:48:05,707 INFO labeled 104.jpg
+2026-07-20 16:48:05,707 INFO processing 105.jpg
+2026-07-20 16:48:27,208 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:48:27,209 INFO labeled 105.jpg
+2026-07-20 16:48:27,209 INFO processing 106.jpg
+2026-07-20 16:48:39,286 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:48:39,287 INFO labeled 106.jpg
+2026-07-20 16:48:39,287 INFO processing 107.jpg
+2026-07-20 16:49:30,168 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:49:30,170 INFO labeled 107.jpg
+2026-07-20 16:49:30,170 INFO processing 108.jpg
+2026-07-20 16:49:35,695 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:49:35,697 INFO labeled 108.jpg
+2026-07-20 16:49:35,697 INFO processing 109.jpg
+2026-07-20 16:49:44,910 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:49:44,911 INFO labeled 109.jpg
+2026-07-20 16:49:44,911 INFO processing 11.jpg
+2026-07-20 16:50:04,565 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:04,566 INFO labeled 11.jpg
+2026-07-20 16:50:04,567 INFO processing 110.jpg
+2026-07-20 16:50:10,913 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:10,914 INFO labeled 110.jpg
+2026-07-20 16:50:10,914 INFO processing 111.jpg
+2026-07-20 16:50:15,958 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:15,960 INFO labeled 111.jpg
+2026-07-20 16:50:15,960 INFO processing 112.jpg
+2026-07-20 16:50:22,992 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:22,993 INFO labeled 112.jpg
+2026-07-20 16:50:22,993 INFO processing 113.jpg
+2026-07-20 16:50:31,291 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:31,292 INFO labeled 113.jpg
+2026-07-20 16:50:31,292 INFO processing 114.jpg
+2026-07-20 16:50:35,482 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:35,483 INFO labeled 114.jpg
+2026-07-20 16:50:35,484 INFO processing 115.jpg
+2026-07-20 16:50:40,192 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:40,193 INFO labeled 115.jpg
+2026-07-20 16:50:40,194 INFO processing 116.jpg
+2026-07-20 16:50:45,105 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:45,106 INFO labeled 116.jpg
+2026-07-20 16:50:45,107 INFO processing 117.jpg
+2026-07-20 16:50:50,634 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:50:50,635 INFO labeled 117.jpg
+2026-07-20 16:50:50,635 INFO processing 118.jpg
+2026-07-20 16:51:02,715 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:51:02,716 INFO labeled 118.jpg
+2026-07-20 16:51:02,716 INFO processing 119.jpg
+2026-07-20 16:51:17,662 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:51:17,663 INFO labeled 119.jpg
+2026-07-20 16:51:17,663 INFO processing 12.jpg
+2026-07-20 16:51:37,113 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:51:37,114 INFO labeled 12.jpg
+2026-07-20 16:51:37,114 INFO processing 120.jpg
+2026-07-20 16:51:46,381 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:51:46,382 INFO labeled 120.jpg
+2026-07-20 16:51:46,383 INFO processing 121.jpg
+2026-07-20 16:52:11,511 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:52:11,513 INFO labeled 121.jpg
+2026-07-20 16:52:11,513 INFO processing 122.jpg
+2026-07-20 16:52:54,407 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:52:54,409 INFO labeled 122.jpg
+2026-07-20 16:52:54,409 INFO processing 123.jpg
+2026-07-20 16:53:12,220 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:53:12,221 INFO labeled 123.jpg
+2026-07-20 16:53:12,221 INFO processing 124.jpg
+2026-07-20 16:53:19,593 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:53:19,594 INFO labeled 124.jpg
+2026-07-20 16:53:19,594 INFO processing 125.jpg
+2026-07-20 16:53:30,988 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:53:30,989 INFO labeled 125.jpg
+2026-07-20 16:53:30,990 INFO processing 126.jpg
+2026-07-20 16:53:40,379 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:53:40,380 INFO labeled 126.jpg
+2026-07-20 16:53:40,380 INFO processing 127.jpg
+2026-07-20 16:53:49,180 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:53:49,181 INFO labeled 127.jpg
+2026-07-20 16:53:49,181 INFO processing 128.jpg
+2026-07-20 16:53:53,762 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:53:53,763 INFO labeled 128.jpg
+2026-07-20 16:53:53,763 INFO processing 129.jpg
+2026-07-20 16:54:09,142 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:54:09,144 INFO labeled 129.jpg
+2026-07-20 16:54:09,144 INFO processing 13.jpg
+2026-07-20 16:54:44,769 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:54:44,771 INFO labeled 13.jpg
+2026-07-20 16:54:44,771 INFO processing 130.jpg
+2026-07-20 16:54:53,779 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:54:53,780 INFO labeled 130.jpg
+2026-07-20 16:54:53,780 INFO processing 131.jpg
+2026-07-20 16:55:03,402 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:55:03,404 INFO labeled 131.jpg
+2026-07-20 16:55:03,404 INFO processing 132.jpg
+2026-07-20 16:55:15,075 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:55:15,076 INFO labeled 132.jpg
+2026-07-20 16:55:15,076 INFO processing 133.jpg
+2026-07-20 16:55:36,565 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:55:36,567 INFO labeled 133.jpg
+2026-07-20 16:55:36,567 INFO processing 134.jpg
+2026-07-20 16:55:58,072 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:55:58,073 INFO labeled 134.jpg
+2026-07-20 16:55:58,074 INFO processing 135.jpg
+2026-07-20 16:56:05,033 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:56:05,034 INFO labeled 135.jpg
+2026-07-20 16:56:05,034 INFO processing 136.jpg
+2026-07-20 16:56:14,862 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:56:14,864 INFO labeled 136.jpg
+2026-07-20 16:56:14,864 INFO processing 137.jpg
+2026-07-20 16:56:21,352 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:56:21,353 INFO labeled 137.jpg
+2026-07-20 16:56:21,353 INFO processing 138.jpg
+2026-07-20 16:57:17,792 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:57:17,794 INFO labeled 138.jpg
+2026-07-20 16:57:17,794 INFO processing 139.jpg
+2026-07-20 16:57:24,376 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:57:24,378 INFO labeled 139.jpg
+2026-07-20 16:57:24,378 INFO processing 14.jpg
+2026-07-20 16:57:50,789 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:57:50,791 INFO labeled 14.jpg
+2026-07-20 16:57:50,791 INFO processing 140.jpg
+2026-07-20 16:57:57,751 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:57:57,752 INFO labeled 140.jpg
+2026-07-20 16:57:57,752 INFO processing 141.jpg
+2026-07-20 16:58:06,146 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:58:06,147 INFO labeled 141.jpg
+2026-07-20 16:58:06,147 INFO processing 142.jpg
+2026-07-20 16:58:13,312 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:58:13,314 INFO labeled 142.jpg
+2026-07-20 16:58:13,314 INFO processing 143.jpg
+2026-07-20 16:58:53,240 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:58:53,242 INFO labeled 143.jpg
+2026-07-20 16:58:53,242 INFO processing 144.jpg
+2026-07-20 16:59:27,639 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 16:59:27,640 INFO labeled 144.jpg
+2026-07-20 16:59:27,640 INFO processing 145.jpg
+2026-07-20 17:00:09,103 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:00:09,104 INFO labeled 145.jpg
+2026-07-20 17:00:09,104 INFO processing 146.jpg
+2026-07-20 17:00:13,401 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:00:13,402 INFO labeled 146.jpg
+2026-07-20 17:00:13,402 INFO processing 147.jpg
+2026-07-20 17:00:20,159 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:00:20,159 INFO labeled 147.jpg
+2026-07-20 17:00:20,159 INFO processing 148.jpg
+2026-07-20 17:00:27,734 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:00:27,735 INFO labeled 148.jpg
+2026-07-20 17:00:27,735 INFO processing 149.jpg
+2026-07-20 17:00:46,062 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:00:46,063 INFO labeled 149.jpg
+2026-07-20 17:00:46,063 INFO processing 15.jpg
+2026-07-20 17:01:15,646 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:01:15,648 INFO labeled 15.jpg
+2026-07-20 17:01:15,648 INFO processing 150.jpg
+2026-07-20 17:01:28,341 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:01:28,343 INFO labeled 150.jpg
+2026-07-20 17:01:28,343 INFO processing 151.jpg
+2026-07-20 17:01:49,329 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:01:49,330 INFO labeled 151.jpg
+2026-07-20 17:01:49,331 INFO processing 152.jpg
+2026-07-20 17:01:58,038 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:01:58,039 INFO labeled 152.jpg
+2026-07-20 17:01:58,039 INFO processing 153.jpg
+2026-07-20 17:02:03,420 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:03,421 INFO labeled 153.jpg
+2026-07-20 17:02:03,428 INFO processing 154.jpg
+2026-07-20 17:02:08,454 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:08,455 INFO labeled 154.jpg
+2026-07-20 17:02:08,455 INFO processing 155.jpg
+2026-07-20 17:02:14,803 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:14,804 INFO labeled 155.jpg
+2026-07-20 17:02:14,804 INFO processing 156.jpg
+2026-07-20 17:02:20,475 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:20,476 INFO labeled 156.jpg
+2026-07-20 17:02:20,476 INFO processing 157.jpg
+2026-07-20 17:02:25,759 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:25,759 INFO labeled 157.jpg
+2026-07-20 17:02:25,760 INFO processing 158.jpg
+2026-07-20 17:02:32,309 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:32,310 INFO labeled 158.jpg
+2026-07-20 17:02:32,310 INFO processing 159.jpg
+2026-07-20 17:02:37,516 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:37,517 INFO labeled 159.jpg
+2026-07-20 17:02:37,517 INFO processing 16.jpg
+2026-07-20 17:02:55,106 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:02:55,107 INFO labeled 16.jpg
+2026-07-20 17:02:55,107 INFO processing 160.jpg
+2026-07-20 17:03:16,710 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:03:16,711 INFO labeled 160.jpg
+2026-07-20 17:03:16,711 INFO processing 161.jpg
+2026-07-20 17:03:27,370 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:03:27,371 INFO labeled 161.jpg
+2026-07-20 17:03:27,371 INFO processing 162.jpg
+2026-07-20 17:03:32,900 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:03:32,902 INFO labeled 162.jpg
+2026-07-20 17:03:32,902 INFO processing 163.jpg
+2026-07-20 17:03:39,351 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:03:39,352 INFO labeled 163.jpg
+2026-07-20 17:03:39,352 INFO processing 164.jpg
+2026-07-20 17:03:49,387 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:03:49,388 INFO labeled 164.jpg
+2026-07-20 17:03:49,388 INFO processing 165.jpg
+2026-07-20 17:04:00,858 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:04:00,859 INFO labeled 165.jpg
+2026-07-20 17:04:00,859 INFO processing 166.jpg
+2026-07-20 17:04:20,115 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:04:20,116 INFO labeled 166.jpg
+2026-07-20 17:04:20,116 INFO processing 167.jpg
+2026-07-20 17:04:51,033 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:04:51,034 INFO labeled 167.jpg
+2026-07-20 17:04:51,034 INFO processing 168.jpg
+2026-07-20 17:04:57,759 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:04:57,761 INFO labeled 168.jpg
+2026-07-20 17:04:57,761 INFO processing 169.jpg
+2026-07-20 17:05:33,421 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:05:33,423 INFO labeled 169.jpg
+2026-07-20 17:05:33,423 INFO processing 17.jpg
+2026-07-20 17:06:10,086 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:06:10,088 INFO labeled 17.jpg
+2026-07-20 17:06:10,095 INFO processing 170.jpg
+2026-07-20 17:06:20,532 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:06:20,533 INFO labeled 170.jpg
+2026-07-20 17:06:20,533 INFO processing 171.jpg
+2026-07-20 17:06:33,028 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:06:33,029 INFO labeled 171.jpg
+2026-07-20 17:06:33,029 INFO processing 172.jpg
+2026-07-20 17:06:45,792 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:06:45,793 INFO labeled 172.jpg
+2026-07-20 17:06:45,793 INFO processing 173.jpg
+2026-07-20 17:06:57,686 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:06:57,687 INFO labeled 173.jpg
+2026-07-20 17:06:57,687 INFO processing 174.jpg
+2026-07-20 17:07:02,187 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:02,188 INFO labeled 174.jpg
+2026-07-20 17:07:02,188 INFO processing 175.jpg
+2026-07-20 17:07:14,261 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:14,262 INFO labeled 175.jpg
+2026-07-20 17:07:14,262 INFO processing 176.jpg
+2026-07-20 17:07:18,354 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:18,355 INFO labeled 176.jpg
+2026-07-20 17:07:18,355 INFO processing 177.jpg
+2026-07-20 17:07:22,880 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:22,881 INFO labeled 177.jpg
+2026-07-20 17:07:22,881 INFO processing 178.jpg
+2026-07-20 17:07:30,502 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:30,504 INFO labeled 178.jpg
+2026-07-20 17:07:30,504 INFO processing 179.jpg
+2026-07-20 17:07:35,552 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:35,553 INFO labeled 179.jpg
+2026-07-20 17:07:35,553 INFO processing 18.jpg
+2026-07-20 17:07:52,953 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:52,955 INFO labeled 18.jpg
+2026-07-20 17:07:52,955 INFO processing 180.jpg
+2026-07-20 17:07:58,278 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:07:58,279 INFO labeled 180.jpg
+2026-07-20 17:07:58,279 INFO processing 181.jpg
+2026-07-20 17:09:17,085 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:09:17,086 ERROR failed to parse output for ../data_set/181.jpg: Expecting ',' delimiter: line 725 column 6 (char 20037)
+2026-07-20 17:09:17,087 ERROR no usable label for 181.jpg
+2026-07-20 17:09:17,087 INFO processing 182.jpg
+2026-07-20 17:09:41,233 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:09:41,235 INFO labeled 182.jpg
+2026-07-20 17:09:41,235 INFO processing 183.jpg
+2026-07-20 17:09:56,171 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:09:56,172 INFO labeled 183.jpg
+2026-07-20 17:09:56,172 INFO processing 184.jpg
+2026-07-20 17:10:10,916 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:10:10,917 INFO labeled 184.jpg
+2026-07-20 17:10:10,917 INFO processing 185.jpg
+2026-07-20 17:11:11,239 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:11:11,241 INFO labeled 185.jpg
+2026-07-20 17:11:11,241 INFO processing 186.jpg
+2026-07-20 17:11:19,441 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:11:19,442 INFO labeled 186.jpg
+2026-07-20 17:11:19,442 INFO processing 187.jpg
+2026-07-20 17:11:41,577 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:11:41,578 INFO labeled 187.jpg
+2026-07-20 17:11:41,579 INFO processing 188.jpg
+2026-07-20 17:11:51,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:11:51,792 INFO labeled 188.jpg
+2026-07-20 17:11:51,792 INFO processing 189.jpg
+2026-07-20 17:12:01,247 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:12:01,248 INFO labeled 189.jpg
+2026-07-20 17:12:01,248 INFO processing 19.jpg
+2026-07-20 17:12:23,794 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:12:23,795 INFO labeled 19.jpg
+2026-07-20 17:12:23,795 INFO processing 190.jpg
+2026-07-20 17:12:28,493 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:12:28,494 INFO labeled 190.jpg
+2026-07-20 17:12:28,494 INFO processing 191.jpg
+2026-07-20 17:12:33,633 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:12:33,634 INFO labeled 191.jpg
+2026-07-20 17:12:33,634 INFO processing 192.jpg
+2026-07-20 17:13:30,545 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:13:30,547 INFO labeled 192.jpg
+2026-07-20 17:13:30,547 INFO processing 193.jpg
+2026-07-20 17:13:37,302 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:13:37,304 INFO labeled 193.jpg
+2026-07-20 17:13:37,304 INFO processing 194.jpg
+2026-07-20 17:14:30,648 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:14:30,650 INFO labeled 194.jpg
+2026-07-20 17:14:30,650 INFO processing 195.jpg
+2026-07-20 17:14:35,562 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:14:35,563 INFO labeled 195.jpg
+2026-07-20 17:14:35,563 INFO processing 196.jpg
+2026-07-20 17:14:41,706 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:14:41,707 INFO labeled 196.jpg
+2026-07-20 17:14:41,707 INFO processing 197.jpg
+2026-07-20 17:15:44,783 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:15:44,785 INFO labeled 197.jpg
+2026-07-20 17:15:44,785 INFO processing 198.jpg
+2026-07-20 17:15:51,747 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:15:51,748 INFO labeled 198.jpg
+2026-07-20 17:15:51,748 INFO processing 199.jpg
+2026-07-20 17:15:58,709 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:15:58,710 INFO labeled 199.jpg
+2026-07-20 17:15:58,710 INFO processing 2.jpg
+2026-07-20 17:16:03,625 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:16:03,626 INFO labeled 2.jpg
+2026-07-20 17:16:03,626 INFO processing 20.jpg
+2026-07-20 17:16:32,502 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:16:32,503 INFO labeled 20.jpg
+2026-07-20 17:16:32,503 INFO processing 200.jpg
+2026-07-20 17:16:40,898 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:16:40,899 INFO labeled 200.jpg
+2026-07-20 17:16:40,899 INFO processing 201.jpg
+2026-07-20 17:16:44,994 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:16:44,995 INFO labeled 201.jpg
+2026-07-20 17:16:44,995 INFO processing 202.jpg
+2026-07-20 17:17:38,856 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:17:38,858 INFO labeled 202.jpg
+2026-07-20 17:17:38,858 INFO processing 203.jpg
+2026-07-20 17:17:46,666 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:17:46,666 INFO labeled 203.jpg
+2026-07-20 17:17:46,666 INFO processing 204.jpg
+2026-07-20 17:18:41,628 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:18:41,629 INFO labeled 204.jpg
+2026-07-20 17:18:41,629 INFO processing 205.jpg
+2026-07-20 17:18:46,338 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:18:46,339 INFO labeled 205.jpg
+2026-07-20 17:18:46,339 INFO processing 206.jpg
+2026-07-20 17:18:54,734 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:18:54,735 INFO labeled 206.jpg
+2026-07-20 17:18:54,735 INFO processing 207.jpg
+2026-07-20 17:18:59,650 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:18:59,651 INFO labeled 207.jpg
+2026-07-20 17:18:59,651 INFO processing 208.jpg
+2026-07-20 17:19:07,022 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:19:07,023 INFO labeled 208.jpg
+2026-07-20 17:19:07,024 INFO processing 209.jpg
+2026-07-20 17:19:12,347 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:19:12,348 INFO labeled 209.jpg
+2026-07-20 17:19:12,348 INFO processing 21.jpg
+2026-07-20 17:19:42,863 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:19:42,865 INFO labeled 21.jpg
+2026-07-20 17:19:42,865 INFO processing 210.jpg
+2026-07-20 17:19:54,741 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:19:54,742 INFO labeled 210.jpg
+2026-07-20 17:19:54,742 INFO processing 211.jpg
+2026-07-20 17:20:01,089 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:01,090 INFO labeled 211.jpg
+2026-07-20 17:20:01,091 INFO processing 212.jpg
+2026-07-20 17:20:08,462 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:08,464 INFO labeled 212.jpg
+2026-07-20 17:20:08,464 INFO processing 213.jpg
+2026-07-20 17:20:16,040 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:16,041 INFO labeled 213.jpg
+2026-07-20 17:20:16,041 INFO processing 214.jpg
+2026-07-20 17:20:20,955 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:20,957 INFO labeled 214.jpg
+2026-07-20 17:20:20,957 INFO processing 215.jpg
+2026-07-20 17:20:26,075 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:26,076 INFO labeled 215.jpg
+2026-07-20 17:20:26,076 INFO processing 216.jpg
+2026-07-20 17:20:33,038 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:33,040 INFO labeled 216.jpg
+2026-07-20 17:20:33,040 INFO processing 217.jpg
+2026-07-20 17:20:38,158 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:38,160 INFO labeled 217.jpg
+2026-07-20 17:20:38,160 INFO processing 218.jpg
+2026-07-20 17:20:43,074 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:43,075 INFO labeled 218.jpg
+2026-07-20 17:20:43,075 INFO processing 219.jpg
+2026-07-20 17:20:49,013 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:49,014 INFO labeled 219.jpg
+2026-07-20 17:20:49,014 INFO processing 22.jpg
+2026-07-20 17:20:57,307 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:20:57,309 INFO labeled 22.jpg
+2026-07-20 17:20:57,309 INFO processing 220.jpg
+2026-07-20 17:21:29,759 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:21:29,760 INFO labeled 220.jpg
+2026-07-20 17:21:29,760 INFO processing 221.jpg
+2026-07-20 17:21:57,314 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:21:57,316 INFO labeled 221.jpg
+2026-07-20 17:21:57,316 INFO processing 222.jpg
+2026-07-20 17:22:30,390 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:22:30,391 INFO labeled 222.jpg
+2026-07-20 17:22:30,392 INFO processing 223.jpg
+2026-07-20 17:22:50,460 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:22:50,462 INFO labeled 223.jpg
+2026-07-20 17:22:50,462 INFO processing 224.jpg
+2026-07-20 17:22:55,682 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:22:55,683 INFO labeled 224.jpg
+2026-07-20 17:22:55,683 INFO processing 225.jpg
+2026-07-20 17:23:01,976 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:23:01,977 INFO labeled 225.jpg
+2026-07-20 17:23:01,977 INFO processing 226.jpg
+2026-07-20 17:23:07,754 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:23:07,755 INFO labeled 226.jpg
+2026-07-20 17:23:07,756 INFO processing 227.jpg
+2026-07-20 17:23:37,360 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:23:37,361 INFO labeled 227.jpg
+2026-07-20 17:23:37,361 INFO processing 228.jpg
+2026-07-20 17:23:44,937 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:23:44,939 INFO labeled 228.jpg
+2026-07-20 17:23:44,939 INFO processing 229.jpg
+2026-07-20 17:23:49,648 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:23:49,649 INFO labeled 229.jpg
+2026-07-20 17:23:49,649 INFO processing 23.jpg
+2026-07-20 17:24:02,653 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:24:02,654 INFO labeled 23.jpg
+2026-07-20 17:24:02,655 INFO processing 230.jpg
+2026-07-20 17:24:08,183 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:24:08,184 INFO labeled 230.jpg
+2026-07-20 17:24:08,184 INFO processing 231.jpg
+2026-07-20 17:24:15,146 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:24:15,147 INFO labeled 231.jpg
+2026-07-20 17:24:15,147 INFO processing 232.jpg
+2026-07-20 17:24:21,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:24:21,792 INFO labeled 232.jpg
+2026-07-20 17:24:21,792 INFO processing 233.jpg
+2026-07-20 17:24:27,434 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:24:27,435 INFO labeled 233.jpg
+2026-07-20 17:24:27,435 INFO processing 234.jpg
+2026-07-20 17:25:09,317 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:25:09,319 INFO labeled 234.jpg
+2026-07-20 17:25:09,319 INFO processing 235.jpg
+2026-07-20 17:25:14,233 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:25:14,234 INFO labeled 235.jpg
+2026-07-20 17:25:14,234 INFO processing 236.jpg
+2026-07-20 17:25:25,809 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:25:25,811 INFO labeled 236.jpg
+2026-07-20 17:25:25,811 INFO processing 237.jpg
+2026-07-20 17:25:32,049 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:25:32,050 INFO labeled 237.jpg
+2026-07-20 17:25:32,050 INFO processing 238.jpg
+2026-07-20 17:25:36,145 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:25:36,147 INFO labeled 238.jpg
+2026-07-20 17:25:36,147 INFO processing 239.jpg
+2026-07-20 17:25:40,242 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:25:40,243 INFO labeled 239.jpg
+2026-07-20 17:25:40,243 INFO processing 24.jpg
+2026-07-20 17:26:02,974 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:26:02,976 INFO labeled 24.jpg
+2026-07-20 17:26:02,976 INFO processing 240.jpg
+2026-07-20 17:26:08,708 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:26:08,710 INFO labeled 240.jpg
+2026-07-20 17:26:08,710 INFO processing 241.jpg
+2026-07-20 17:27:01,136 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:27:01,138 INFO labeled 241.jpg
+2026-07-20 17:27:01,138 INFO processing 242.jpg
+2026-07-20 17:27:20,592 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:27:20,593 INFO labeled 242.jpg
+2026-07-20 17:27:20,593 INFO processing 243.jpg
+2026-07-20 17:27:43,777 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:27:43,778 INFO labeled 243.jpg
+2026-07-20 17:27:43,778 INFO processing 244.jpg
+2026-07-20 17:28:11,034 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:28:11,036 INFO labeled 244.jpg
+2026-07-20 17:28:11,036 INFO processing 245.jpg
+2026-07-20 17:28:35,241 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:28:35,242 INFO labeled 245.jpg
+2026-07-20 17:28:35,242 INFO processing 246.jpg
+2026-07-20 17:28:51,215 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:28:51,217 INFO labeled 246.jpg
+2026-07-20 17:28:51,217 INFO processing 247.jpg
+2026-07-20 17:29:13,129 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:29:13,130 INFO labeled 247.jpg
+2026-07-20 17:29:13,130 INFO processing 248.jpg
+2026-07-20 17:29:44,053 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:29:44,055 INFO labeled 248.jpg
+2026-07-20 17:29:44,055 INFO processing 249.jpg
+2026-07-20 17:30:12,520 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:30:12,522 INFO labeled 249.jpg
+2026-07-20 17:30:12,522 INFO processing 25.jpg
+2026-07-20 17:30:29,519 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:30:29,521 INFO labeled 25.jpg
+2026-07-20 17:30:29,521 INFO processing 250.jpg
+2026-07-20 17:30:42,627 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:30:42,628 INFO labeled 250.jpg
+2026-07-20 17:30:42,628 INFO processing 251.jpg
+2026-07-20 17:31:10,684 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:31:10,686 INFO labeled 251.jpg
+2026-07-20 17:31:10,686 INFO processing 252.jpg
+2026-07-20 17:31:32,802 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:31:32,803 INFO labeled 252.jpg
+2026-07-20 17:31:32,803 INFO processing 253.jpg
+2026-07-20 17:31:55,535 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:31:55,536 INFO labeled 253.jpg
+2026-07-20 17:31:55,536 INFO processing 254.jpg
+2026-07-20 17:32:24,309 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:32:24,310 INFO labeled 254.jpg
+2026-07-20 17:32:24,310 INFO processing 255.jpg
+2026-07-20 17:32:48,066 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:32:48,067 INFO labeled 255.jpg
+2026-07-20 17:32:48,067 INFO processing 256.jpg
+2026-07-20 17:33:08,752 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:33:08,753 INFO labeled 256.jpg
+2026-07-20 17:33:08,754 INFO processing 257.jpg
+2026-07-20 17:33:28,435 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:33:28,436 INFO labeled 257.jpg
+2026-07-20 17:33:28,436 INFO processing 258.jpg
+2026-07-20 17:33:50,940 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:33:50,941 INFO labeled 258.jpg
+2026-07-20 17:33:50,941 INFO processing 259.jpg
+2026-07-20 17:34:11,010 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:34:11,011 INFO labeled 259.jpg
+2026-07-20 17:34:11,011 INFO processing 26.jpg
+2026-07-20 17:34:17,871 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:34:17,872 INFO labeled 26.jpg
+2026-07-20 17:34:17,872 INFO processing 260.jpg
+2026-07-20 17:34:34,358 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:34:34,359 INFO labeled 260.jpg
+2026-07-20 17:34:34,359 INFO processing 261.jpg
+2026-07-20 17:34:51,561 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:34:51,562 INFO labeled 261.jpg
+2026-07-20 17:34:51,562 INFO processing 262.jpg
+2026-07-20 17:35:07,833 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:35:07,835 INFO labeled 262.jpg
+2026-07-20 17:35:07,835 INFO processing 263.jpg
+2026-07-20 17:35:24,841 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:35:24,842 INFO labeled 263.jpg
+2026-07-20 17:35:24,843 INFO processing 264.jpg
+2026-07-20 17:36:07,439 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:36:07,441 INFO labeled 264.jpg
+2026-07-20 17:36:07,441 INFO processing 265.jpg
+2026-07-20 17:36:12,150 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:36:12,151 INFO labeled 265.jpg
+2026-07-20 17:36:12,151 INFO processing 266.jpg
+2026-07-20 17:36:25,668 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:36:25,669 INFO labeled 266.jpg
+2026-07-20 17:36:25,669 INFO processing 267.jpg
+2026-07-20 17:36:40,822 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:36:40,824 INFO labeled 267.jpg
+2026-07-20 17:36:40,824 INFO processing 268.jpg
+2026-07-20 17:37:10,108 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:37:10,110 INFO labeled 268.jpg
+2026-07-20 17:37:10,110 INFO processing 269.jpg
+2026-07-20 17:37:19,734 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:37:19,735 INFO labeled 269.jpg
+2026-07-20 17:37:19,735 INFO processing 27.jpg
+2026-07-20 17:37:33,661 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:37:33,663 INFO labeled 27.jpg
+2026-07-20 17:37:33,663 INFO processing 270.jpg
+2026-07-20 17:37:42,058 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:37:42,059 INFO labeled 270.jpg
+2026-07-20 17:37:42,059 INFO processing 271.jpg
+2026-07-20 17:37:57,418 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:37:57,419 INFO labeled 271.jpg
+2026-07-20 17:37:57,419 INFO processing 272.jpg
+2026-07-20 17:38:10,320 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:38:10,322 INFO labeled 272.jpg
+2026-07-20 17:38:10,322 INFO processing 273.jpg
+2026-07-20 17:38:26,090 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:38:26,091 INFO labeled 273.jpg
+2026-07-20 17:38:26,091 INFO processing 274.jpg
+2026-07-20 17:38:36,918 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:38:36,920 INFO labeled 274.jpg
+2026-07-20 17:38:36,920 INFO processing 275.jpg
+2026-07-20 17:38:52,304 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:38:52,306 INFO labeled 275.jpg
+2026-07-20 17:38:52,306 INFO processing 276.jpg
+2026-07-20 17:39:02,544 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:39:02,545 INFO labeled 276.jpg
+2026-07-20 17:39:02,545 INFO processing 277.jpg
+2026-07-20 17:39:15,140 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:39:15,141 INFO labeled 277.jpg
+2026-07-20 17:39:15,141 INFO processing 278.jpg
+2026-07-20 17:39:33,367 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:39:33,368 INFO labeled 278.jpg
+2026-07-20 17:39:33,368 INFO processing 279.jpg
+2026-07-20 17:39:45,041 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:39:45,043 INFO labeled 279.jpg
+2026-07-20 17:39:45,043 INFO processing 28.jpg
+2026-07-20 17:39:50,775 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:39:50,776 INFO labeled 28.jpg
+2026-07-20 17:39:50,776 INFO processing 280.jpg
+2026-07-20 17:40:05,930 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:40:05,932 INFO labeled 280.jpg
+2026-07-20 17:40:05,932 INFO processing 281.jpg
+2026-07-20 17:40:10,436 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:40:10,437 INFO labeled 281.jpg
+2026-07-20 17:40:10,437 INFO processing 282.jpg
+2026-07-20 17:40:29,483 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:40:29,484 INFO labeled 282.jpg
+2026-07-20 17:40:29,484 INFO processing 283.jpg
+2026-07-20 17:40:40,747 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:40:40,748 INFO labeled 283.jpg
+2026-07-20 17:40:40,748 INFO processing 284.jpg
+2026-07-20 17:40:46,891 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:40:46,892 INFO labeled 284.jpg
+2026-07-20 17:40:46,892 INFO processing 285.jpg
+2026-07-20 17:41:01,637 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:41:01,638 INFO labeled 285.jpg
+2026-07-20 17:41:01,638 INFO processing 286.jpg
+2026-07-20 17:41:14,334 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:41:14,336 INFO labeled 286.jpg
+2026-07-20 17:41:14,336 INFO processing 287.jpg
+2026-07-20 17:41:22,526 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:41:22,528 INFO labeled 287.jpg
+2026-07-20 17:41:22,528 INFO processing 288.jpg
+2026-07-20 17:41:45,055 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:41:45,056 INFO labeled 288.jpg
+2026-07-20 17:41:45,056 INFO processing 289.jpg
+2026-07-20 17:41:56,523 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:41:56,524 INFO labeled 289.jpg
+2026-07-20 17:41:56,525 INFO processing 29.jpg
+2026-07-20 17:42:03,282 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:42:03,283 INFO labeled 29.jpg
+2026-07-20 17:42:03,283 INFO processing 290.jpg
+2026-07-20 17:42:28,575 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:42:28,576 INFO labeled 290.jpg
+2026-07-20 17:42:28,576 INFO processing 291.jpg
+2026-07-20 17:42:46,802 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:42:46,803 INFO labeled 291.jpg
+2026-07-20 17:42:46,803 INFO processing 292.jpg
+2026-07-20 17:43:05,439 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:43:05,441 INFO labeled 292.jpg
+2026-07-20 17:43:05,441 INFO processing 293.jpg
+2026-07-20 17:43:30,631 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:43:30,632 INFO labeled 293.jpg
+2026-07-20 17:43:30,632 INFO processing 294.jpg
+2026-07-20 17:43:35,136 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:43:35,137 INFO labeled 294.jpg
+2026-07-20 17:43:35,137 INFO processing 295.jpg
+2026-07-20 17:43:54,460 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:43:54,461 INFO labeled 295.jpg
+2026-07-20 17:43:54,462 INFO processing 296.jpg
+2026-07-20 17:44:27,564 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:44:27,566 INFO labeled 296.jpg
+2026-07-20 17:44:27,566 INFO processing 297.jpg
+2026-07-20 17:44:47,634 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:44:47,635 INFO labeled 297.jpg
+2026-07-20 17:44:47,635 INFO processing 298.jpg
+2026-07-20 17:45:04,837 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:45:04,839 INFO labeled 298.jpg
+2026-07-20 17:45:04,839 INFO processing 299.jpg
+2026-07-20 17:45:16,511 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:45:16,512 INFO labeled 299.jpg
+2026-07-20 17:45:16,512 INFO processing 3.jpg
+2026-07-20 17:45:22,246 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:45:22,247 INFO labeled 3.jpg
+2026-07-20 17:45:22,247 INFO processing 30.jpg
+2026-07-20 17:45:26,956 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:45:26,957 INFO labeled 30.jpg
+2026-07-20 17:45:26,957 INFO processing 300.jpg
+2026-07-20 17:45:48,050 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:45:48,051 INFO labeled 300.jpg
+2026-07-20 17:45:48,052 INFO processing 301.jpg
+2026-07-20 17:45:55,219 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:45:55,220 INFO labeled 301.jpg
+2026-07-20 17:45:55,220 INFO processing 302.jpg
+2026-07-20 17:46:01,158 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:46:01,159 INFO labeled 302.jpg
+2026-07-20 17:46:01,160 INFO processing 303.jpg
+2026-07-20 17:46:12,831 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:46:12,832 INFO labeled 303.jpg
+2026-07-20 17:46:12,832 INFO processing 304.jpg
+2026-07-20 17:46:34,847 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:46:34,849 INFO labeled 304.jpg
+2026-07-20 17:46:34,849 INFO processing 305.jpg
+2026-07-20 17:47:11,303 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:47:11,304 INFO labeled 305.jpg
+2026-07-20 17:47:11,304 INFO processing 306.jpg
+2026-07-20 17:47:19,493 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:47:19,494 INFO labeled 306.jpg
+2026-07-20 17:47:19,494 INFO processing 307.jpg
+2026-07-20 17:47:27,276 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:47:27,277 INFO labeled 307.jpg
+2026-07-20 17:47:27,277 INFO processing 308.jpg
+2026-07-20 17:47:52,262 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:47:52,263 INFO labeled 308.jpg
+2026-07-20 17:47:52,263 INFO processing 309.jpg
+2026-07-20 17:47:57,893 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:47:57,894 INFO labeled 309.jpg
+2026-07-20 17:47:57,895 INFO processing 31.jpg
+2026-07-20 17:48:02,914 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:48:02,914 INFO labeled 31.jpg
+2026-07-20 17:48:02,915 INFO processing 310.jpg
+2026-07-20 17:48:13,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:48:13,792 INFO labeled 310.jpg
+2026-07-20 17:48:13,792 INFO processing 311.jpg
+2026-07-20 17:48:40,185 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:48:40,187 INFO labeled 311.jpg
+2026-07-20 17:48:40,187 INFO processing 312.jpg
+2026-07-20 17:48:45,305 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:48:45,306 INFO labeled 312.jpg
+2026-07-20 17:48:45,306 INFO processing 313.jpg
+2026-07-20 17:48:57,183 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:48:57,184 INFO labeled 313.jpg
+2026-07-20 17:48:57,184 INFO processing 314.jpg
+2026-07-20 17:49:37,734 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:49:37,736 INFO labeled 314.jpg
+2026-07-20 17:49:37,736 INFO processing 315.jpg
+2026-07-20 17:49:43,468 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:49:43,469 INFO labeled 315.jpg
+2026-07-20 17:49:43,470 INFO processing 316.jpg
+2026-07-20 17:49:49,408 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:49:49,409 INFO labeled 316.jpg
+2026-07-20 17:49:49,409 INFO processing 317.jpg
+2026-07-20 17:49:57,190 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:49:57,191 INFO labeled 317.jpg
+2026-07-20 17:49:57,191 INFO processing 318.jpg
+2026-07-20 17:50:02,105 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:50:02,106 INFO labeled 318.jpg
+2026-07-20 17:50:02,106 INFO processing 319.jpg
+2026-07-20 17:50:09,480 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:50:09,481 INFO labeled 319.jpg
+2026-07-20 17:50:09,481 INFO processing 32.jpg
+2026-07-20 17:50:24,940 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:50:24,942 INFO labeled 32.jpg
+2026-07-20 17:50:24,942 INFO processing 320.jpg
+2026-07-20 17:50:32,518 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:50:32,519 INFO labeled 320.jpg
+2026-07-20 17:50:32,519 INFO processing 321.jpg
+2026-07-20 17:50:38,048 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:50:38,049 INFO labeled 321.jpg
+2026-07-20 17:50:38,049 INFO processing 322.jpg
+2026-07-20 17:50:55,046 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:50:55,047 INFO labeled 322.jpg
+2026-07-20 17:50:55,047 INFO processing 323.jpg
+2026-07-20 17:51:12,454 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:51:12,456 INFO labeled 323.jpg
+2026-07-20 17:51:12,456 INFO processing 324.jpg
+2026-07-20 17:51:31,910 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:51:31,912 INFO labeled 324.jpg
+2026-07-20 17:51:31,912 INFO processing 325.jpg
+2026-07-20 17:51:38,669 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:51:38,670 INFO labeled 325.jpg
+2026-07-20 17:51:38,670 INFO processing 326.jpg
+2026-07-20 17:51:49,319 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:51:49,320 INFO labeled 326.jpg
+2026-07-20 17:51:49,320 INFO processing 327.jpg
+2026-07-20 17:51:53,619 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:51:53,620 INFO labeled 327.jpg
+2026-07-20 17:51:53,620 INFO processing 328.jpg
+2026-07-20 17:52:02,835 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:52:02,837 INFO labeled 328.jpg
+2026-07-20 17:52:02,837 INFO processing 329.jpg
+2026-07-20 17:52:15,943 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:52:15,944 INFO labeled 329.jpg
+2026-07-20 17:52:15,944 INFO processing 33.jpg
+2026-07-20 17:52:24,749 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:52:24,750 INFO labeled 33.jpg
+2026-07-20 17:52:24,750 INFO processing 34.jpg
+2026-07-20 17:52:44,819 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:52:44,821 INFO labeled 34.jpg
+2026-07-20 17:52:44,821 INFO processing 35.jpg
+2026-07-20 17:52:50,759 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:52:50,760 INFO labeled 35.jpg
+2026-07-20 17:52:50,760 INFO processing 36.jpg
+2026-07-20 17:52:56,083 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:52:56,084 INFO labeled 36.jpg
+2026-07-20 17:52:56,084 INFO processing 37.jpg
+2026-07-20 17:53:05,095 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:53:05,096 INFO labeled 37.jpg
+2026-07-20 17:53:05,097 INFO processing 38.jpg
+2026-07-20 17:53:11,648 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:53:11,649 INFO labeled 38.jpg
+2026-07-20 17:53:11,649 INFO processing 39.jpg
+2026-07-20 17:53:26,292 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:53:26,293 INFO labeled 39.jpg
+2026-07-20 17:53:26,293 INFO processing 4.jpg
+2026-07-20 17:53:31,616 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:53:31,618 INFO labeled 4.jpg
+2026-07-20 17:53:31,618 INFO processing 40.jpg
+2026-07-20 17:53:46,567 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:53:46,568 INFO labeled 40.jpg
+2026-07-20 17:53:46,568 INFO processing 41.jpg
+2026-07-20 17:53:54,965 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:53:54,966 INFO labeled 41.jpg
+2026-07-20 17:53:54,966 INFO processing 42.jpg
+2026-07-20 17:54:00,289 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:54:00,290 INFO labeled 42.jpg
+2026-07-20 17:54:00,290 INFO processing 43.jpg
+2026-07-20 17:54:05,204 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:54:05,205 INFO labeled 43.jpg
+2026-07-20 17:54:05,205 INFO processing 44.jpg
+2026-07-20 17:54:30,599 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:54:30,600 INFO labeled 44.jpg
+2026-07-20 17:54:30,601 INFO processing 45.jpg
+2026-07-20 17:54:35,814 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:54:35,815 INFO labeled 45.jpg
+2026-07-20 17:54:35,815 INFO processing 46.jpg
+2026-07-20 17:54:41,044 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:54:41,045 INFO labeled 46.jpg
+2026-07-20 17:54:41,045 INFO processing 47.jpg
+2026-07-20 17:54:45,959 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:54:45,960 INFO labeled 47.jpg
+2026-07-20 17:54:45,960 INFO processing 48.jpg
+2026-07-20 17:54:50,670 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:54:50,679 INFO labeled 48.jpg
+2026-07-20 17:54:50,679 INFO processing 49.jpg
+2026-07-20 17:55:02,753 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:55:02,754 INFO labeled 49.jpg
+2026-07-20 17:55:02,754 INFO processing 5.jpg
+2026-07-20 17:55:07,807 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:55:07,808 INFO labeled 5.jpg
+2026-07-20 17:55:07,808 INFO processing 50.jpg
+2026-07-20 17:55:12,993 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:55:12,994 INFO labeled 50.jpg
+2026-07-20 17:55:12,995 INFO processing 51.jpg
+2026-07-20 17:55:19,751 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:55:19,752 INFO labeled 51.jpg
+2026-07-20 17:55:19,752 INFO processing 52.jpg
+2026-07-20 17:55:28,353 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:55:28,354 INFO labeled 52.jpg
+2026-07-20 17:55:28,355 INFO processing 53.jpg
+2026-07-20 17:55:57,230 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:55:57,232 INFO labeled 53.jpg
+2026-07-20 17:55:57,232 INFO processing 54.jpg
+2026-07-20 17:56:08,699 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:08,700 INFO labeled 54.jpg
+2026-07-20 17:56:08,700 INFO processing 55.jpg
+2026-07-20 17:56:13,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:13,792 INFO labeled 55.jpg
+2026-07-20 17:56:13,792 INFO processing 56.jpg
+2026-07-20 17:56:18,529 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:18,530 INFO labeled 56.jpg
+2026-07-20 17:56:18,531 INFO processing 57.jpg
+2026-07-20 17:56:24,263 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:24,264 ERROR failed to parse output for ../data_set/57.jpg: no JSON object found in model output
+2026-07-20 17:56:24,265 ERROR no usable label for 57.jpg
+2026-07-20 17:56:24,265 INFO processing 58.jpg
+2026-07-20 17:56:33,759 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:33,761 INFO labeled 58.jpg
+2026-07-20 17:56:33,761 INFO processing 59.jpg
+2026-07-20 17:56:41,759 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:41,761 INFO labeled 59.jpg
+2026-07-20 17:56:41,761 INFO processing 6.jpg
+2026-07-20 17:56:46,894 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:46,895 INFO labeled 6.jpg
+2026-07-20 17:56:46,895 INFO processing 60.jpg
+2026-07-20 17:56:53,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:56:53,792 INFO labeled 60.jpg
+2026-07-20 17:56:53,792 INFO processing 61.jpg
+2026-07-20 17:57:11,795 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:57:11,796 INFO labeled 61.jpg
+2026-07-20 17:57:11,796 INFO processing 62.jpg
+2026-07-20 17:57:38,711 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:57:38,713 INFO labeled 62.jpg
+2026-07-20 17:57:38,713 INFO processing 63.jpg
+2026-07-20 17:57:46,901 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:57:46,910 INFO labeled 63.jpg
+2026-07-20 17:57:46,910 INFO processing 64.jpg
+2026-07-20 17:58:00,213 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:58:00,214 INFO labeled 64.jpg
+2026-07-20 17:58:00,214 INFO processing 65.jpg
+2026-07-20 17:58:14,959 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:58:14,960 INFO labeled 65.jpg
+2026-07-20 17:58:14,960 INFO processing 66.jpg
+2026-07-20 17:58:44,245 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:58:44,247 INFO labeled 66.jpg
+2026-07-20 17:58:44,247 INFO processing 67.jpg
+2026-07-20 17:59:14,146 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:59:14,148 INFO labeled 67.jpg
+2026-07-20 17:59:14,148 INFO processing 68.jpg
+2026-07-20 17:59:46,096 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 17:59:46,097 INFO labeled 68.jpg
+2026-07-20 17:59:46,097 INFO processing 69.jpg
+2026-07-20 18:00:15,382 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:00:15,384 INFO labeled 69.jpg
+2026-07-20 18:00:15,384 INFO processing 7.jpg
+2026-07-20 18:00:20,707 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:00:20,708 INFO labeled 7.jpg
+2026-07-20 18:00:20,708 INFO processing 70.jpg
+2026-07-20 18:00:30,947 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:00:30,948 INFO labeled 70.jpg
+2026-07-20 18:00:30,948 INFO processing 71.jpg
+2026-07-20 18:00:43,747 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:00:43,748 INFO labeled 71.jpg
+2026-07-20 18:00:43,748 INFO processing 72.jpg
+2026-07-20 18:00:52,554 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:00:52,555 INFO labeled 72.jpg
+2026-07-20 18:00:52,556 INFO processing 73.jpg
+2026-07-20 18:00:58,492 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:00:58,493 INFO labeled 73.jpg
+2026-07-20 18:00:58,493 INFO processing 74.jpg
+2026-07-20 18:01:16,925 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:01:16,926 INFO labeled 74.jpg
+2026-07-20 18:01:16,926 INFO processing 75.jpg
+2026-07-20 18:01:43,549 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:01:43,551 INFO labeled 75.jpg
+2026-07-20 18:01:43,551 INFO processing 76.jpg
+2026-07-20 18:01:48,156 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:01:48,157 INFO labeled 76.jpg
+2026-07-20 18:01:48,157 INFO processing 77.jpg
+2026-07-20 18:01:54,505 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:01:54,506 INFO labeled 77.jpg
+2026-07-20 18:01:54,506 INFO processing 78.jpg
+2026-07-20 18:02:00,855 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:02:00,855 INFO labeled 78.jpg
+2026-07-20 18:02:00,856 INFO processing 79.jpg
+2026-07-20 18:02:21,541 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:02:21,542 INFO labeled 79.jpg
+2026-07-20 18:02:21,542 INFO processing 8.jpg
+2026-07-20 18:02:26,249 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:02:26,250 INFO labeled 8.jpg
+2026-07-20 18:02:26,250 INFO processing 80.jpg
+2026-07-20 18:02:38,845 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:02:38,847 INFO labeled 80.jpg
+2026-07-20 18:02:38,847 INFO processing 81.jpg
+2026-07-20 18:02:50,724 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:02:50,725 INFO labeled 81.jpg
+2026-07-20 18:02:50,725 INFO processing 82.jpg
+2026-07-20 18:03:28,305 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:03:28,306 INFO labeled 82.jpg
+2026-07-20 18:03:28,307 INFO processing 83.jpg
+2026-07-20 18:03:58,103 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:03:58,105 INFO labeled 83.jpg
+2026-07-20 18:03:58,105 INFO processing 84.jpg
+2026-07-20 18:04:03,018 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:04:03,019 INFO labeled 84.jpg
+2026-07-20 18:04:03,020 INFO processing 85.jpg
+2026-07-20 18:04:32,305 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:04:32,307 INFO labeled 85.jpg
+2026-07-20 18:04:32,307 INFO processing 86.jpg
+2026-07-20 18:04:44,755 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:04:44,756 INFO labeled 86.jpg
+2026-07-20 18:04:44,757 INFO processing 87.jpg
+2026-07-20 18:05:08,248 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:05:08,249 INFO labeled 87.jpg
+2026-07-20 18:05:08,250 INFO processing 88.jpg
+2026-07-20 18:05:29,753 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:05:29,754 INFO labeled 88.jpg
+2026-07-20 18:05:29,754 INFO processing 89.jpg
+2026-07-20 18:05:42,040 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:05:42,041 INFO labeled 89.jpg
+2026-07-20 18:05:42,041 INFO processing 9.jpg
+2026-07-20 18:05:51,775 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:05:51,776 INFO labeled 9.jpg
+2026-07-20 18:05:51,776 INFO processing 90.jpg
+2026-07-20 18:06:12,350 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:06:12,352 INFO labeled 90.jpg
+2026-07-20 18:06:12,352 INFO processing 91.jpg
+2026-07-20 18:06:27,096 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:06:27,098 INFO labeled 91.jpg
+2026-07-20 18:06:27,098 INFO processing 92.jpg
+2026-07-20 18:06:47,167 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:06:47,168 INFO labeled 92.jpg
+2026-07-20 18:06:47,168 INFO processing 93.jpg
+2026-07-20 18:06:54,949 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:06:54,950 INFO labeled 93.jpg
+2026-07-20 18:06:54,950 INFO processing 94.jpg
+2026-07-20 18:07:23,929 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:07:23,930 INFO labeled 94.jpg
+2026-07-20 18:07:23,930 INFO processing 95.jpg
+2026-07-20 18:08:08,575 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:08:08,576 INFO labeled 95.jpg
+2026-07-20 18:08:08,576 INFO processing 96.jpg
+2026-07-20 18:08:28,134 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:08:28,135 INFO labeled 96.jpg
+2026-07-20 18:08:28,135 INFO processing 97.jpg
+2026-07-20 18:08:56,089 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:08:56,091 INFO labeled 97.jpg
+2026-07-20 18:08:56,091 INFO processing 98.jpg
+2026-07-20 18:09:14,111 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:09:14,112 INFO labeled 98.jpg
+2026-07-20 18:09:14,112 INFO processing 99.jpg
+2026-07-20 18:09:39,302 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 18:09:39,304 INFO labeled 99.jpg
+2026-07-20 18:09:39,304 INFO successfully labeled 326 out of 328 images
+2026-07-20 18:09:39,323 INFO saved dataset to ../prepared_dataset
+2026-07-20 20:38:02,540 INFO found 328 images to process
+2026-07-20 20:38:02,540 INFO skipping 10.jpg, already labeled
+2026-07-20 20:38:02,540 INFO skipping 100.jpg, already labeled
+2026-07-20 20:38:02,540 INFO skipping 101.jpg, already labeled
+2026-07-20 20:38:02,540 INFO skipping 102.jpg, already labeled
+2026-07-20 20:38:02,541 INFO skipping 103.jpg, already labeled
+2026-07-20 20:38:02,541 INFO skipping 104.jpg, already labeled
+2026-07-20 20:38:02,541 INFO skipping 105.jpg, already labeled
+2026-07-20 20:38:02,541 INFO skipping 106.jpg, already labeled
+2026-07-20 20:38:02,541 INFO skipping 107.jpg, already labeled
+2026-07-20 20:38:02,541 INFO skipping 108.jpg, already labeled
+2026-07-20 20:38:02,541 INFO skipping 109.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 11.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 110.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 111.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 112.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 113.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 114.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 115.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 116.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 117.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 118.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 119.jpg, already labeled
+2026-07-20 20:38:02,542 INFO skipping 12.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 120.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 121.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 122.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 123.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 124.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 125.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 126.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 127.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 128.jpg, already labeled
+2026-07-20 20:38:02,543 INFO skipping 129.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 13.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 130.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 131.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 132.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 133.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 134.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 135.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 136.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 137.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 138.jpg, already labeled
+2026-07-20 20:38:02,544 INFO skipping 139.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 14.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 140.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 141.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 142.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 143.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 144.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 145.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 146.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 147.jpg, already labeled
+2026-07-20 20:38:02,545 INFO skipping 148.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 149.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 15.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 150.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 151.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 152.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 153.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 154.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 155.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 156.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 157.jpg, already labeled
+2026-07-20 20:38:02,546 INFO skipping 158.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 159.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 16.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 160.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 161.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 162.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 163.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 164.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 165.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 166.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 167.jpg, already labeled
+2026-07-20 20:38:02,547 INFO skipping 168.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 169.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 17.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 170.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 171.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 172.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 173.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 174.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 175.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 176.jpg, already labeled
+2026-07-20 20:38:02,548 INFO skipping 177.jpg, already labeled
+2026-07-20 20:38:02,549 INFO skipping 178.jpg, already labeled
+2026-07-20 20:38:02,549 INFO skipping 179.jpg, already labeled
+2026-07-20 20:38:02,549 INFO skipping 18.jpg, already labeled
+2026-07-20 20:38:02,549 INFO skipping 180.jpg, already labeled
+2026-07-20 20:38:02,549 INFO processing 181.jpg
+2026-07-20 20:38:22,531 INFO found 328 images to process
+2026-07-20 20:38:22,531 INFO processing 10.jpg
+2026-07-20 20:38:40,764 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:38:40,777 INFO labeled 10.jpg
+2026-07-20 20:38:40,777 INFO processing 100.jpg
+2026-07-20 20:39:15,604 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:39:15,606 INFO labeled 100.jpg
+2026-07-20 20:39:15,606 INFO processing 101.jpg
+2026-07-20 20:39:43,461 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:39:43,462 INFO labeled 101.jpg
+2026-07-20 20:39:43,462 INFO processing 102.jpg
+2026-07-20 20:40:18,179 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:40:18,181 INFO labeled 102.jpg
+2026-07-20 20:40:18,181 INFO processing 103.jpg
+2026-07-20 20:40:48,288 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:40:48,290 INFO labeled 103.jpg
+2026-07-20 20:40:48,290 INFO processing 104.jpg
+2026-07-20 20:41:24,542 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:41:24,543 INFO labeled 104.jpg
+2026-07-20 20:41:24,543 INFO processing 105.jpg
+2026-07-20 20:41:46,458 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:41:46,459 INFO labeled 105.jpg
+2026-07-20 20:41:46,460 INFO processing 106.jpg
+2026-07-20 20:41:59,773 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:41:59,775 INFO labeled 106.jpg
+2026-07-20 20:41:59,775 INFO processing 107.jpg
+2026-07-20 20:42:56,301 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:42:56,303 INFO labeled 107.jpg
+2026-07-20 20:42:56,303 INFO processing 108.jpg
+2026-07-20 20:43:01,218 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:43:01,220 INFO labeled 108.jpg
+2026-07-20 20:43:01,220 INFO processing 109.jpg
+2026-07-20 20:43:11,459 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:43:11,460 INFO labeled 109.jpg
+2026-07-20 20:43:11,460 INFO processing 11.jpg
+2026-07-20 20:43:32,042 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:43:32,043 INFO labeled 11.jpg
+2026-07-20 20:43:32,044 INFO processing 110.jpg
+2026-07-20 20:43:38,597 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:43:38,598 INFO labeled 110.jpg
+2026-07-20 20:43:38,598 INFO processing 111.jpg
+2026-07-20 20:43:43,307 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:43:43,308 INFO labeled 111.jpg
+2026-07-20 20:43:43,308 INFO processing 112.jpg
+2026-07-20 20:43:50,066 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:43:50,067 INFO labeled 112.jpg
+2026-07-20 20:43:50,067 INFO processing 113.jpg
+2026-07-20 20:43:58,054 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:43:58,055 INFO labeled 113.jpg
+2026-07-20 20:43:58,055 INFO processing 114.jpg
+2026-07-20 20:44:02,355 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:44:02,357 INFO labeled 114.jpg
+2026-07-20 20:44:02,357 INFO processing 115.jpg
+2026-07-20 20:44:07,478 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:44:07,479 INFO labeled 115.jpg
+2026-07-20 20:44:07,479 INFO processing 116.jpg
+2026-07-20 20:44:12,801 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:44:12,802 INFO labeled 116.jpg
+2026-07-20 20:44:12,802 INFO processing 117.jpg
+2026-07-20 20:44:17,717 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:44:17,718 INFO labeled 117.jpg
+2026-07-20 20:44:17,718 INFO processing 118.jpg
+2026-07-20 20:44:28,982 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:44:28,984 INFO labeled 118.jpg
+2026-07-20 20:44:28,984 INFO processing 119.jpg
+2026-07-20 20:44:43,732 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:44:43,733 INFO labeled 119.jpg
+2026-07-20 20:44:43,733 INFO processing 12.jpg
+2026-07-20 20:45:03,775 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:45:03,776 INFO labeled 12.jpg
+2026-07-20 20:45:03,777 INFO processing 120.jpg
+2026-07-20 20:45:08,921 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:45:08,922 INFO labeled 120.jpg
+2026-07-20 20:45:08,922 INFO processing 121.jpg
+2026-07-20 20:45:35,304 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:45:35,305 INFO labeled 121.jpg
+2026-07-20 20:45:35,305 INFO processing 122.jpg
+2026-07-20 20:46:18,274 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:46:18,275 INFO labeled 122.jpg
+2026-07-20 20:46:18,276 INFO processing 123.jpg
+2026-07-20 20:46:35,152 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:46:35,153 INFO labeled 123.jpg
+2026-07-20 20:46:35,153 INFO processing 124.jpg
+2026-07-20 20:46:42,318 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:46:42,319 INFO labeled 124.jpg
+2026-07-20 20:46:42,319 INFO processing 125.jpg
+2026-07-20 20:46:54,403 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:46:54,404 INFO labeled 125.jpg
+2026-07-20 20:46:54,404 INFO processing 126.jpg
+2026-07-20 20:47:04,232 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:47:04,234 INFO labeled 126.jpg
+2026-07-20 20:47:04,234 INFO processing 127.jpg
+2026-07-20 20:47:12,631 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:47:12,632 INFO labeled 127.jpg
+2026-07-20 20:47:12,633 INFO processing 128.jpg
+2026-07-20 20:47:17,648 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:47:17,649 INFO labeled 128.jpg
+2026-07-20 20:47:17,649 INFO processing 129.jpg
+2026-07-20 20:47:33,009 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:47:33,010 INFO labeled 129.jpg
+2026-07-20 20:47:33,010 INFO processing 13.jpg
+2026-07-20 20:48:08,237 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:48:08,238 INFO labeled 13.jpg
+2026-07-20 20:48:08,238 INFO processing 130.jpg
+2026-07-20 20:48:16,430 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:48:16,431 INFO labeled 130.jpg
+2026-07-20 20:48:16,431 INFO processing 131.jpg
+2026-07-20 20:48:26,056 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:48:26,057 INFO labeled 131.jpg
+2026-07-20 20:48:26,058 INFO processing 132.jpg
+2026-07-20 20:48:36,913 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:48:36,914 INFO labeled 132.jpg
+2026-07-20 20:48:36,914 INFO processing 133.jpg
+2026-07-20 20:49:01,792 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:49:01,794 INFO labeled 133.jpg
+2026-07-20 20:49:01,794 INFO processing 134.jpg
+2026-07-20 20:49:18,898 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:49:18,899 INFO labeled 134.jpg
+2026-07-20 20:49:18,899 INFO processing 135.jpg
+2026-07-20 20:49:26,273 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:49:26,274 INFO labeled 135.jpg
+2026-07-20 20:49:26,274 INFO processing 136.jpg
+2026-07-20 20:49:32,722 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:49:32,724 INFO labeled 136.jpg
+2026-07-20 20:49:32,724 INFO processing 137.jpg
+2026-07-20 20:49:39,484 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:49:39,485 INFO labeled 137.jpg
+2026-07-20 20:49:39,486 INFO processing 138.jpg
+2026-07-20 20:50:35,600 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:50:35,601 INFO labeled 138.jpg
+2026-07-20 20:50:35,601 INFO processing 139.jpg
+2026-07-20 20:50:42,360 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:50:42,361 INFO labeled 139.jpg
+2026-07-20 20:50:42,361 INFO processing 14.jpg
+2026-07-20 20:51:08,268 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:51:08,269 INFO labeled 14.jpg
+2026-07-20 20:51:08,269 INFO processing 140.jpg
+2026-07-20 20:51:15,807 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:51:15,808 INFO labeled 140.jpg
+2026-07-20 20:51:15,808 INFO processing 141.jpg
+2026-07-20 20:51:24,436 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:51:24,437 INFO labeled 141.jpg
+2026-07-20 20:51:24,437 INFO processing 142.jpg
+2026-07-20 20:51:31,215 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:51:31,216 INFO labeled 142.jpg
+2026-07-20 20:51:31,216 INFO processing 143.jpg
+2026-07-20 20:52:11,350 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:52:11,351 INFO labeled 143.jpg
+2026-07-20 20:52:11,351 INFO processing 144.jpg
+2026-07-20 20:52:44,634 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:52:44,636 INFO labeled 144.jpg
+2026-07-20 20:52:44,636 INFO processing 145.jpg
+2026-07-20 20:53:25,389 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:53:25,391 INFO labeled 145.jpg
+2026-07-20 20:53:25,391 INFO processing 146.jpg
+2026-07-20 20:53:30,304 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:53:30,305 INFO labeled 146.jpg
+2026-07-20 20:53:30,305 INFO processing 147.jpg
+2026-07-20 20:53:36,858 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:53:36,859 INFO labeled 147.jpg
+2026-07-20 20:53:36,859 INFO processing 148.jpg
+2026-07-20 20:53:46,076 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:53:46,077 INFO labeled 148.jpg
+2026-07-20 20:53:46,077 INFO processing 149.jpg
+2026-07-20 20:54:04,507 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:54:04,509 INFO labeled 149.jpg
+2026-07-20 20:54:04,509 INFO processing 15.jpg
+2026-07-20 20:54:34,307 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:54:34,309 INFO labeled 15.jpg
+2026-07-20 20:54:34,309 INFO processing 150.jpg
+2026-07-20 20:54:47,210 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:54:47,212 INFO labeled 150.jpg
+2026-07-20 20:54:47,212 INFO processing 151.jpg
+2026-07-20 20:55:06,053 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:06,054 INFO labeled 151.jpg
+2026-07-20 20:55:06,054 INFO processing 152.jpg
+2026-07-20 20:55:12,812 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:12,813 INFO labeled 152.jpg
+2026-07-20 20:55:12,813 INFO processing 153.jpg
+2026-07-20 20:55:17,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:17,792 INFO labeled 153.jpg
+2026-07-20 20:55:17,792 INFO processing 154.jpg
+2026-07-20 20:55:22,642 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:22,643 INFO labeled 154.jpg
+2026-07-20 20:55:22,643 INFO processing 155.jpg
+2026-07-20 20:55:27,866 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:27,867 INFO labeled 155.jpg
+2026-07-20 20:55:27,867 INFO processing 156.jpg
+2026-07-20 20:55:34,112 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:34,113 INFO labeled 156.jpg
+2026-07-20 20:55:34,113 INFO processing 157.jpg
+2026-07-20 20:55:39,232 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:39,233 INFO labeled 157.jpg
+2026-07-20 20:55:39,233 INFO processing 158.jpg
+2026-07-20 20:55:46,197 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:46,198 INFO labeled 158.jpg
+2026-07-20 20:55:46,198 INFO processing 159.jpg
+2026-07-20 20:55:51,521 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:55:51,522 INFO labeled 159.jpg
+2026-07-20 20:55:51,522 INFO processing 16.jpg
+2026-07-20 20:56:08,725 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:56:08,726 INFO labeled 16.jpg
+2026-07-20 20:56:08,726 INFO processing 160.jpg
+2026-07-20 20:56:35,131 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:56:35,132 INFO labeled 160.jpg
+2026-07-20 20:56:35,132 INFO processing 161.jpg
+2026-07-20 20:56:45,793 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:56:45,795 INFO labeled 161.jpg
+2026-07-20 20:56:45,795 INFO processing 162.jpg
+2026-07-20 20:56:50,917 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:56:50,918 INFO labeled 162.jpg
+2026-07-20 20:56:50,919 INFO processing 163.jpg
+2026-07-20 20:56:57,469 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:56:57,470 INFO labeled 163.jpg
+2026-07-20 20:56:57,471 INFO processing 164.jpg
+2026-07-20 20:57:07,810 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:57:07,811 INFO labeled 164.jpg
+2026-07-20 20:57:07,812 INFO processing 165.jpg
+2026-07-20 20:57:19,179 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:57:19,180 INFO labeled 165.jpg
+2026-07-20 20:57:19,180 INFO processing 166.jpg
+2026-07-20 20:57:37,714 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:57:37,715 INFO labeled 166.jpg
+2026-07-20 20:57:37,716 INFO processing 167.jpg
+2026-07-20 20:58:08,435 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:58:08,437 INFO labeled 167.jpg
+2026-07-20 20:58:08,437 INFO processing 168.jpg
+2026-07-20 20:58:15,194 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:58:15,195 INFO labeled 168.jpg
+2026-07-20 20:58:15,195 INFO processing 169.jpg
+2026-07-20 20:58:51,036 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:58:51,038 INFO labeled 169.jpg
+2026-07-20 20:58:51,038 INFO processing 17.jpg
+2026-07-20 20:59:27,492 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:59:27,493 INFO labeled 17.jpg
+2026-07-20 20:59:27,494 INFO processing 170.jpg
+2026-07-20 20:59:38,554 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:59:38,555 INFO labeled 170.jpg
+2026-07-20 20:59:38,555 INFO processing 171.jpg
+2026-07-20 20:59:50,431 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 20:59:50,432 INFO labeled 171.jpg
+2026-07-20 20:59:50,432 INFO processing 172.jpg
+2026-07-20 21:00:00,671 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:00,672 INFO labeled 172.jpg
+2026-07-20 21:00:00,672 INFO processing 173.jpg
+2026-07-20 21:00:11,526 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:11,527 INFO labeled 173.jpg
+2026-07-20 21:00:11,527 INFO processing 174.jpg
+2026-07-20 21:00:16,236 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:16,238 INFO labeled 174.jpg
+2026-07-20 21:00:16,238 INFO processing 175.jpg
+2026-07-20 21:00:28,115 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:28,116 INFO labeled 175.jpg
+2026-07-20 21:00:28,116 INFO processing 176.jpg
+2026-07-20 21:00:32,211 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:32,212 INFO labeled 176.jpg
+2026-07-20 21:00:32,212 INFO processing 177.jpg
+2026-07-20 21:00:37,332 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:37,333 INFO labeled 177.jpg
+2026-07-20 21:00:37,333 INFO processing 178.jpg
+2026-07-20 21:00:45,114 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:45,115 INFO labeled 178.jpg
+2026-07-20 21:00:45,115 INFO processing 179.jpg
+2026-07-20 21:00:51,055 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:00:51,056 INFO labeled 179.jpg
+2026-07-20 21:00:51,056 INFO processing 18.jpg
+2026-07-20 21:01:10,512 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:01:10,513 INFO labeled 18.jpg
+2026-07-20 21:01:10,514 INFO processing 180.jpg
+2026-07-20 21:01:16,450 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:01:16,451 INFO labeled 180.jpg
+2026-07-20 21:01:16,451 INFO processing 181.jpg
+2026-07-20 21:02:40,323 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:02:40,324 ERROR failed to parse output for ../data_set/181.jpg: Expecting ',' delimiter: line 789 column 6 (char 20842)
+2026-07-20 21:02:40,325 ERROR no usable label for 181.jpg
+2026-07-20 21:02:40,325 INFO processing 182.jpg
+2026-07-20 21:03:05,101 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:03:05,103 INFO labeled 182.jpg
+2026-07-20 21:03:05,103 INFO processing 183.jpg
+2026-07-20 21:03:21,076 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:03:21,077 INFO labeled 183.jpg
+2026-07-20 21:03:21,077 INFO processing 184.jpg
+2026-07-20 21:03:38,280 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:03:38,281 INFO labeled 184.jpg
+2026-07-20 21:03:38,281 INFO processing 185.jpg
+2026-07-20 21:04:41,566 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:04:41,567 INFO labeled 185.jpg
+2026-07-20 21:04:41,567 INFO processing 186.jpg
+2026-07-20 21:04:49,962 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:04:49,964 INFO labeled 186.jpg
+2026-07-20 21:04:49,964 INFO processing 187.jpg
+2026-07-20 21:05:11,774 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:05:11,775 INFO labeled 187.jpg
+2026-07-20 21:05:11,776 INFO processing 188.jpg
+2026-07-20 21:05:22,630 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:05:22,631 INFO labeled 188.jpg
+2026-07-20 21:05:22,631 INFO processing 189.jpg
+2026-07-20 21:05:32,050 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:05:32,052 INFO labeled 189.jpg
+2026-07-20 21:05:32,052 INFO processing 19.jpg
+2026-07-20 21:05:52,122 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:05:52,123 INFO labeled 19.jpg
+2026-07-20 21:05:52,123 INFO processing 190.jpg
+2026-07-20 21:05:56,628 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:05:56,629 INFO labeled 190.jpg
+2026-07-20 21:05:56,629 INFO processing 191.jpg
+2026-07-20 21:06:01,339 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:06:01,340 INFO labeled 191.jpg
+2026-07-20 21:06:01,340 INFO processing 192.jpg
+2026-07-20 21:06:55,957 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:06:55,958 INFO labeled 192.jpg
+2026-07-20 21:06:55,958 INFO processing 193.jpg
+2026-07-20 21:07:02,583 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:07:02,584 INFO labeled 193.jpg
+2026-07-20 21:07:02,585 INFO processing 194.jpg
+2026-07-20 21:07:52,753 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:07:52,755 INFO labeled 194.jpg
+2026-07-20 21:07:52,755 INFO processing 195.jpg
+2026-07-20 21:07:58,077 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:07:58,078 INFO labeled 195.jpg
+2026-07-20 21:07:58,078 INFO processing 196.jpg
+2026-07-20 21:08:06,063 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:08:06,064 INFO labeled 196.jpg
+2026-07-20 21:08:06,064 INFO processing 197.jpg
+2026-07-20 21:09:06,775 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:09:06,777 INFO labeled 197.jpg
+2026-07-20 21:09:06,777 INFO processing 198.jpg
+2026-07-20 21:09:14,351 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:09:14,353 INFO labeled 198.jpg
+2026-07-20 21:09:14,353 INFO processing 199.jpg
+2026-07-20 21:09:20,699 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:09:20,701 INFO labeled 199.jpg
+2026-07-20 21:09:20,701 INFO processing 2.jpg
+2026-07-20 21:09:25,614 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:09:25,615 INFO labeled 2.jpg
+2026-07-20 21:09:25,615 INFO processing 20.jpg
+2026-07-20 21:09:54,897 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:09:54,899 INFO labeled 20.jpg
+2026-07-20 21:09:54,899 INFO processing 200.jpg
+2026-07-20 21:10:02,267 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:10:02,268 INFO labeled 200.jpg
+2026-07-20 21:10:02,269 INFO processing 201.jpg
+2026-07-20 21:10:04,870 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:10:04,871 INFO labeled 201.jpg
+2026-07-20 21:10:04,871 INFO processing 202.jpg
+2026-07-20 21:10:59,399 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:10:59,401 INFO labeled 202.jpg
+2026-07-20 21:10:59,401 INFO processing 203.jpg
+2026-07-20 21:11:09,434 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:11:09,435 INFO labeled 203.jpg
+2026-07-20 21:11:09,435 INFO processing 204.jpg
+2026-07-20 21:12:05,030 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:12:05,032 INFO labeled 204.jpg
+2026-07-20 21:12:05,032 INFO processing 205.jpg
+2026-07-20 21:12:09,549 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:12:09,550 INFO labeled 205.jpg
+2026-07-20 21:12:09,550 INFO processing 206.jpg
+2026-07-20 21:12:18,138 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:12:18,139 INFO labeled 206.jpg
+2026-07-20 21:12:18,140 INFO processing 207.jpg
+2026-07-20 21:12:26,838 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:12:26,840 INFO labeled 207.jpg
+2026-07-20 21:12:26,840 INFO processing 208.jpg
+2026-07-20 21:12:32,777 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:12:32,778 INFO labeled 208.jpg
+2026-07-20 21:12:32,778 INFO processing 209.jpg
+2026-07-20 21:12:38,101 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:12:38,102 INFO labeled 209.jpg
+2026-07-20 21:12:38,102 INFO processing 21.jpg
+2026-07-20 21:13:07,692 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:07,694 INFO labeled 21.jpg
+2026-07-20 21:13:07,694 INFO processing 210.jpg
+2026-07-20 21:13:19,160 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:19,161 INFO labeled 210.jpg
+2026-07-20 21:13:19,161 INFO processing 211.jpg
+2026-07-20 21:13:25,918 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:25,919 INFO labeled 211.jpg
+2026-07-20 21:13:25,919 INFO processing 212.jpg
+2026-07-20 21:13:32,675 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:32,676 INFO labeled 212.jpg
+2026-07-20 21:13:32,676 INFO processing 213.jpg
+2026-07-20 21:13:40,458 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:40,460 INFO labeled 213.jpg
+2026-07-20 21:13:40,460 INFO processing 214.jpg
+2026-07-20 21:13:44,962 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:44,963 INFO labeled 214.jpg
+2026-07-20 21:13:44,963 INFO processing 215.jpg
+2026-07-20 21:13:49,468 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:49,469 INFO labeled 215.jpg
+2026-07-20 21:13:49,469 INFO processing 216.jpg
+2026-07-20 21:13:54,996 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:54,997 INFO labeled 216.jpg
+2026-07-20 21:13:54,997 INFO processing 217.jpg
+2026-07-20 21:13:59,706 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:13:59,708 INFO labeled 217.jpg
+2026-07-20 21:13:59,708 INFO processing 218.jpg
+2026-07-20 21:14:04,416 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:14:04,417 INFO labeled 218.jpg
+2026-07-20 21:14:04,418 INFO processing 219.jpg
+2026-07-20 21:14:09,126 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:14:09,127 INFO labeled 219.jpg
+2026-07-20 21:14:09,128 INFO processing 22.jpg
+2026-07-20 21:14:17,112 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:14:17,114 INFO labeled 22.jpg
+2026-07-20 21:14:17,114 INFO processing 220.jpg
+2026-07-20 21:14:44,556 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:14:44,557 INFO labeled 220.jpg
+2026-07-20 21:14:44,558 INFO processing 221.jpg
+2026-07-20 21:15:12,609 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:15:12,611 INFO labeled 221.jpg
+2026-07-20 21:15:12,611 INFO processing 222.jpg
+2026-07-20 21:15:46,296 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:15:46,298 INFO labeled 222.jpg
+2026-07-20 21:15:46,298 INFO processing 223.jpg
+2026-07-20 21:16:06,775 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:16:06,776 INFO labeled 223.jpg
+2026-07-20 21:16:06,776 INFO processing 224.jpg
+2026-07-20 21:16:11,485 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:16:11,486 INFO labeled 224.jpg
+2026-07-20 21:16:11,486 INFO processing 225.jpg
+2026-07-20 21:16:16,604 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:16:16,605 INFO labeled 225.jpg
+2026-07-20 21:16:16,605 INFO processing 226.jpg
+2026-07-20 21:16:21,519 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:16:21,520 INFO labeled 226.jpg
+2026-07-20 21:16:21,520 INFO processing 227.jpg
+2026-07-20 21:16:48,961 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:16:48,962 INFO labeled 227.jpg
+2026-07-20 21:16:48,962 INFO processing 228.jpg
+2026-07-20 21:16:56,743 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:16:56,744 INFO labeled 228.jpg
+2026-07-20 21:16:56,744 INFO processing 229.jpg
+2026-07-20 21:17:01,453 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:17:01,454 INFO labeled 229.jpg
+2026-07-20 21:17:01,454 INFO processing 23.jpg
+2026-07-20 21:17:13,330 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:17:13,332 INFO labeled 23.jpg
+2026-07-20 21:17:13,332 INFO processing 230.jpg
+2026-07-20 21:17:19,679 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:17:19,680 INFO labeled 230.jpg
+2026-07-20 21:17:19,680 INFO processing 231.jpg
+2026-07-20 21:17:26,054 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:17:26,055 INFO labeled 231.jpg
+2026-07-20 21:17:26,055 INFO processing 232.jpg
+2026-07-20 21:17:32,222 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:17:32,223 INFO labeled 232.jpg
+2026-07-20 21:17:32,223 INFO processing 233.jpg
+2026-07-20 21:17:36,677 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:17:36,678 INFO labeled 233.jpg
+2026-07-20 21:17:36,678 INFO processing 234.jpg
+2026-07-20 21:18:18,248 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:18:18,250 INFO labeled 234.jpg
+2026-07-20 21:18:18,250 INFO processing 235.jpg
+2026-07-20 21:18:22,959 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:18:22,960 INFO labeled 235.jpg
+2026-07-20 21:18:22,960 INFO processing 236.jpg
+2026-07-20 21:18:34,837 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:18:34,838 INFO labeled 236.jpg
+2026-07-20 21:18:34,838 INFO processing 237.jpg
+2026-07-20 21:18:39,652 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:18:39,654 INFO labeled 237.jpg
+2026-07-20 21:18:39,654 INFO processing 238.jpg
+2026-07-20 21:18:43,656 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:18:43,657 INFO labeled 238.jpg
+2026-07-20 21:18:43,657 INFO processing 239.jpg
+2026-07-20 21:18:47,775 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:18:47,776 INFO labeled 239.jpg
+2026-07-20 21:18:47,776 INFO processing 24.jpg
+2026-07-20 21:19:10,675 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:19:10,676 INFO labeled 24.jpg
+2026-07-20 21:19:10,676 INFO processing 240.jpg
+2026-07-20 21:19:15,999 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:19:16,000 INFO labeled 240.jpg
+2026-07-20 21:19:16,000 INFO processing 241.jpg
+2026-07-20 21:20:06,481 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:20:06,482 INFO labeled 241.jpg
+2026-07-20 21:20:06,482 INFO processing 242.jpg
+2026-07-20 21:20:26,141 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:20:26,142 INFO labeled 242.jpg
+2026-07-20 21:20:26,143 INFO processing 243.jpg
+2026-07-20 21:20:46,211 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:20:46,212 INFO labeled 243.jpg
+2026-07-20 21:20:46,213 INFO processing 244.jpg
+2026-07-20 21:21:12,732 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:21:12,733 INFO labeled 244.jpg
+2026-07-20 21:21:12,733 INFO processing 245.jpg
+2026-07-20 21:21:36,079 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:21:36,080 INFO labeled 245.jpg
+2026-07-20 21:21:36,080 INFO processing 246.jpg
+2026-07-20 21:21:52,771 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:21:52,772 INFO labeled 246.jpg
+2026-07-20 21:21:52,772 INFO processing 247.jpg
+2026-07-20 21:22:13,452 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:22:13,454 INFO labeled 247.jpg
+2026-07-20 21:22:13,454 INFO processing 248.jpg
+2026-07-20 21:22:45,138 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:22:45,139 INFO labeled 248.jpg
+2026-07-20 21:22:45,139 INFO processing 249.jpg
+2026-07-20 21:23:14,177 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:23:14,178 INFO labeled 249.jpg
+2026-07-20 21:23:14,178 INFO processing 25.jpg
+2026-07-20 21:23:33,015 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:23:33,016 INFO labeled 25.jpg
+2026-07-20 21:23:33,017 INFO processing 250.jpg
+2026-07-20 21:23:45,713 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:23:45,714 INFO labeled 250.jpg
+2026-07-20 21:23:45,714 INFO processing 251.jpg
+2026-07-20 21:24:13,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:24:13,793 INFO labeled 251.jpg
+2026-07-20 21:24:13,793 INFO processing 252.jpg
+2026-07-20 21:24:36,093 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:24:36,094 INFO labeled 252.jpg
+2026-07-20 21:24:36,094 INFO processing 253.jpg
+2026-07-20 21:24:59,030 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:24:59,032 INFO labeled 253.jpg
+2026-07-20 21:24:59,032 INFO processing 254.jpg
+2026-07-20 21:25:28,419 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:25:28,420 INFO labeled 254.jpg
+2026-07-20 21:25:28,420 INFO processing 255.jpg
+2026-07-20 21:25:51,970 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:25:51,972 INFO labeled 255.jpg
+2026-07-20 21:25:51,972 INFO processing 256.jpg
+2026-07-20 21:26:12,859 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:26:12,861 INFO labeled 256.jpg
+2026-07-20 21:26:12,861 INFO processing 257.jpg
+2026-07-20 21:26:30,472 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:26:30,473 INFO labeled 257.jpg
+2026-07-20 21:26:30,473 INFO processing 258.jpg
+2026-07-20 21:26:51,063 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:26:51,064 INFO labeled 258.jpg
+2026-07-20 21:26:51,064 INFO processing 259.jpg
+2026-07-20 21:27:13,482 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:27:13,484 INFO labeled 259.jpg
+2026-07-20 21:27:13,484 INFO processing 26.jpg
+2026-07-20 21:27:19,419 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:27:19,420 INFO labeled 26.jpg
+2026-07-20 21:27:19,420 INFO processing 260.jpg
+2026-07-20 21:27:35,775 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:27:35,776 INFO labeled 260.jpg
+2026-07-20 21:27:35,777 INFO processing 261.jpg
+2026-07-20 21:27:52,627 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:27:52,628 INFO labeled 261.jpg
+2026-07-20 21:27:52,628 INFO processing 262.jpg
+2026-07-20 21:28:09,390 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:28:09,392 INFO labeled 262.jpg
+2026-07-20 21:28:09,392 INFO processing 263.jpg
+2026-07-20 21:28:26,593 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:28:26,594 INFO labeled 263.jpg
+2026-07-20 21:28:26,594 INFO processing 264.jpg
+2026-07-20 21:29:09,791 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:29:09,793 INFO labeled 264.jpg
+2026-07-20 21:29:09,793 INFO processing 265.jpg
+2026-07-20 21:29:14,514 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:29:14,516 INFO labeled 265.jpg
+2026-07-20 21:29:14,516 INFO processing 266.jpg
+2026-07-20 21:29:27,622 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:29:27,623 INFO labeled 266.jpg
+2026-07-20 21:29:27,623 INFO processing 267.jpg
+2026-07-20 21:29:42,367 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:29:42,368 INFO labeled 267.jpg
+2026-07-20 21:29:42,368 INFO processing 268.jpg
+2026-07-20 21:30:11,757 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:30:11,759 INFO labeled 268.jpg
+2026-07-20 21:30:11,759 INFO processing 269.jpg
+2026-07-20 21:30:21,381 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:30:21,382 INFO labeled 269.jpg
+2026-07-20 21:30:21,382 INFO processing 27.jpg
+2026-07-20 21:30:34,898 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:30:34,899 INFO labeled 27.jpg
+2026-07-20 21:30:34,900 INFO processing 270.jpg
+2026-07-20 21:30:43,500 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:30:43,501 INFO labeled 270.jpg
+2026-07-20 21:30:43,501 INFO processing 271.jpg
+2026-07-20 21:30:58,452 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:30:58,453 INFO labeled 271.jpg
+2026-07-20 21:30:58,453 INFO processing 272.jpg
+2026-07-20 21:31:11,352 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:31:11,353 INFO labeled 272.jpg
+2026-07-20 21:31:11,353 INFO processing 273.jpg
+2026-07-20 21:31:27,326 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:31:27,328 INFO labeled 273.jpg
+2026-07-20 21:31:27,328 INFO processing 274.jpg
+2026-07-20 21:31:38,797 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:31:38,798 INFO labeled 274.jpg
+2026-07-20 21:31:38,798 INFO processing 275.jpg
+2026-07-20 21:31:53,746 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:31:53,747 INFO labeled 275.jpg
+2026-07-20 21:31:53,747 INFO processing 276.jpg
+2026-07-20 21:32:03,576 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:32:03,577 INFO labeled 276.jpg
+2026-07-20 21:32:03,578 INFO processing 277.jpg
+2026-07-20 21:32:15,048 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:32:15,050 INFO labeled 277.jpg
+2026-07-20 21:32:15,050 INFO processing 278.jpg
+2026-07-20 21:32:33,067 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:32:33,068 INFO labeled 278.jpg
+2026-07-20 21:32:33,069 INFO processing 279.jpg
+2026-07-20 21:32:44,433 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:32:44,434 INFO labeled 279.jpg
+2026-07-20 21:32:44,434 INFO processing 28.jpg
+2026-07-20 21:32:49,144 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:32:49,145 INFO labeled 28.jpg
+2026-07-20 21:32:49,145 INFO processing 280.jpg
+2026-07-20 21:33:03,799 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:33:03,801 INFO labeled 280.jpg
+2026-07-20 21:33:03,801 INFO processing 281.jpg
+2026-07-20 21:33:08,283 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:33:08,284 INFO labeled 281.jpg
+2026-07-20 21:33:08,284 INFO processing 282.jpg
+2026-07-20 21:33:26,725 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:33:26,726 INFO labeled 282.jpg
+2026-07-20 21:33:26,727 INFO processing 283.jpg
+2026-07-20 21:33:37,886 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:33:37,887 INFO labeled 283.jpg
+2026-07-20 21:33:37,887 INFO processing 284.jpg
+2026-07-20 21:33:45,566 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:33:45,568 INFO labeled 284.jpg
+2026-07-20 21:33:45,568 INFO processing 285.jpg
+2026-07-20 21:34:00,516 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:34:00,517 INFO labeled 285.jpg
+2026-07-20 21:34:00,517 INFO processing 286.jpg
+2026-07-20 21:34:13,316 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:34:13,317 INFO labeled 286.jpg
+2026-07-20 21:34:13,318 INFO processing 287.jpg
+2026-07-20 21:34:21,099 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:34:21,100 INFO labeled 287.jpg
+2026-07-20 21:34:21,100 INFO processing 288.jpg
+2026-07-20 21:34:43,013 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:34:43,014 INFO labeled 288.jpg
+2026-07-20 21:34:43,014 INFO processing 289.jpg
+2026-07-20 21:34:53,457 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:34:53,458 INFO labeled 289.jpg
+2026-07-20 21:34:53,459 INFO processing 29.jpg
+2026-07-20 21:35:00,010 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:35:00,012 INFO labeled 29.jpg
+2026-07-20 21:35:00,012 INFO processing 290.jpg
+2026-07-20 21:35:25,612 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:35:25,613 INFO labeled 290.jpg
+2026-07-20 21:35:25,613 INFO processing 291.jpg
+2026-07-20 21:35:43,429 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:35:43,430 INFO labeled 291.jpg
+2026-07-20 21:35:43,430 INFO processing 292.jpg
+2026-07-20 21:36:02,269 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:36:02,270 INFO labeled 292.jpg
+2026-07-20 21:36:02,270 INFO processing 293.jpg
+2026-07-20 21:36:27,665 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:36:27,666 INFO labeled 293.jpg
+2026-07-20 21:36:27,666 INFO processing 294.jpg
+2026-07-20 21:36:32,582 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:36:32,583 INFO labeled 294.jpg
+2026-07-20 21:36:32,583 INFO processing 295.jpg
+2026-07-20 21:36:51,422 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:36:51,424 INFO labeled 295.jpg
+2026-07-20 21:36:51,424 INFO processing 296.jpg
+2026-07-20 21:37:24,087 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:37:24,089 INFO labeled 296.jpg
+2026-07-20 21:37:24,089 INFO processing 297.jpg
+2026-07-20 21:37:43,544 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:37:43,545 INFO labeled 297.jpg
+2026-07-20 21:37:43,545 INFO processing 298.jpg
+2026-07-20 21:37:57,676 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:37:57,677 INFO labeled 298.jpg
+2026-07-20 21:37:57,677 INFO processing 299.jpg
+2026-07-20 21:38:09,145 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:38:09,146 INFO labeled 299.jpg
+2026-07-20 21:38:09,146 INFO processing 3.jpg
+2026-07-20 21:38:15,618 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:38:15,619 INFO labeled 3.jpg
+2026-07-20 21:38:15,619 INFO processing 30.jpg
+2026-07-20 21:38:20,216 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:38:20,217 INFO labeled 30.jpg
+2026-07-20 21:38:20,218 INFO processing 300.jpg
+2026-07-20 21:38:41,400 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:38:41,402 INFO labeled 300.jpg
+2026-07-20 21:38:41,402 INFO processing 301.jpg
+2026-07-20 21:38:51,230 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:38:51,231 INFO labeled 301.jpg
+2026-07-20 21:38:51,231 INFO processing 302.jpg
+2026-07-20 21:38:56,145 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:38:56,146 INFO labeled 302.jpg
+2026-07-20 21:38:56,146 INFO processing 303.jpg
+2026-07-20 21:39:07,717 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:39:07,718 INFO labeled 303.jpg
+2026-07-20 21:39:07,718 INFO processing 304.jpg
+2026-07-20 21:39:30,042 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:39:30,044 INFO labeled 304.jpg
+2026-07-20 21:39:30,044 INFO processing 305.jpg
+2026-07-20 21:40:07,315 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:40:07,317 INFO labeled 305.jpg
+2026-07-20 21:40:07,317 INFO processing 306.jpg
+2026-07-20 21:40:12,945 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:40:12,946 INFO labeled 306.jpg
+2026-07-20 21:40:12,946 INFO processing 307.jpg
+2026-07-20 21:40:19,808 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:40:19,809 INFO labeled 307.jpg
+2026-07-20 21:40:19,809 INFO processing 308.jpg
+2026-07-20 21:40:44,485 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:40:44,486 INFO labeled 308.jpg
+2026-07-20 21:40:44,486 INFO processing 309.jpg
+2026-07-20 21:40:49,605 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:40:49,606 INFO labeled 309.jpg
+2026-07-20 21:40:49,606 INFO processing 31.jpg
+2026-07-20 21:40:55,750 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:40:55,751 INFO labeled 31.jpg
+2026-07-20 21:40:55,751 INFO processing 310.jpg
+2026-07-20 21:41:07,013 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:41:07,014 INFO labeled 310.jpg
+2026-07-20 21:41:07,014 INFO processing 311.jpg
+2026-07-20 21:41:33,433 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:41:33,434 INFO labeled 311.jpg
+2026-07-20 21:41:33,434 INFO processing 312.jpg
+2026-07-20 21:41:38,962 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:41:38,964 INFO labeled 312.jpg
+2026-07-20 21:41:38,964 INFO processing 313.jpg
+2026-07-20 21:41:50,636 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:41:50,637 INFO labeled 313.jpg
+2026-07-20 21:41:50,637 INFO processing 314.jpg
+2026-07-20 21:42:32,413 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:42:32,415 INFO labeled 314.jpg
+2026-07-20 21:42:32,415 INFO processing 315.jpg
+2026-07-20 21:42:37,122 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:42:37,124 INFO labeled 315.jpg
+2026-07-20 21:42:37,124 INFO processing 316.jpg
+2026-07-20 21:42:43,266 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:42:43,268 INFO labeled 316.jpg
+2026-07-20 21:42:43,268 INFO processing 317.jpg
+2026-07-20 21:42:50,434 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:42:50,435 INFO labeled 317.jpg
+2026-07-20 21:42:50,435 INFO processing 318.jpg
+2026-07-20 21:42:55,349 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:42:55,350 INFO labeled 318.jpg
+2026-07-20 21:42:55,350 INFO processing 319.jpg
+2026-07-20 21:43:03,335 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:43:03,337 INFO labeled 319.jpg
+2026-07-20 21:43:03,337 INFO processing 32.jpg
+2026-07-20 21:43:18,695 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:43:18,696 INFO labeled 32.jpg
+2026-07-20 21:43:18,696 INFO processing 320.jpg
+2026-07-20 21:43:25,433 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:43:25,434 INFO labeled 320.jpg
+2026-07-20 21:43:25,434 INFO processing 321.jpg
+2026-07-20 21:43:29,704 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:43:29,705 INFO labeled 321.jpg
+2026-07-20 21:43:29,705 INFO processing 322.jpg
+2026-07-20 21:43:46,546 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:43:46,547 INFO labeled 322.jpg
+2026-07-20 21:43:46,547 INFO processing 323.jpg
+2026-07-20 21:44:04,977 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:44:04,978 INFO labeled 323.jpg
+2026-07-20 21:44:04,978 INFO processing 324.jpg
+2026-07-20 21:44:24,534 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:44:24,535 INFO labeled 324.jpg
+2026-07-20 21:44:24,536 INFO processing 325.jpg
+2026-07-20 21:44:31,292 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:44:31,293 INFO labeled 325.jpg
+2026-07-20 21:44:31,294 INFO processing 326.jpg
+2026-07-20 21:44:41,327 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:44:41,328 INFO labeled 326.jpg
+2026-07-20 21:44:41,329 INFO processing 327.jpg
+2026-07-20 21:44:45,730 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:44:45,731 INFO labeled 327.jpg
+2026-07-20 21:44:45,731 INFO processing 328.jpg
+2026-07-20 21:44:55,357 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:44:55,358 INFO labeled 328.jpg
+2026-07-20 21:44:55,358 INFO processing 329.jpg
+2026-07-20 21:45:10,509 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:45:10,511 INFO labeled 329.jpg
+2026-07-20 21:45:10,511 INFO processing 33.jpg
+2026-07-20 21:45:19,418 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:45:19,419 INFO labeled 33.jpg
+2026-07-20 21:45:19,419 INFO processing 34.jpg
+2026-07-20 21:45:39,283 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:45:39,284 INFO labeled 34.jpg
+2026-07-20 21:45:39,284 INFO processing 35.jpg
+2026-07-20 21:45:45,222 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:45:45,223 INFO labeled 35.jpg
+2026-07-20 21:45:45,223 INFO processing 36.jpg
+2026-07-20 21:45:51,570 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:45:51,571 INFO labeled 36.jpg
+2026-07-20 21:45:51,571 INFO processing 37.jpg
+2026-07-20 21:46:02,629 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:02,629 INFO labeled 37.jpg
+2026-07-20 21:46:02,630 INFO processing 38.jpg
+2026-07-20 21:46:09,009 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:09,010 INFO labeled 38.jpg
+2026-07-20 21:46:09,010 INFO processing 39.jpg
+2026-07-20 21:46:23,517 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:23,518 INFO labeled 39.jpg
+2026-07-20 21:46:23,519 INFO processing 4.jpg
+2026-07-20 21:46:28,228 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:28,229 INFO labeled 4.jpg
+2026-07-20 21:46:28,229 INFO processing 40.jpg
+2026-07-20 21:46:41,027 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:41,028 INFO labeled 40.jpg
+2026-07-20 21:46:41,028 INFO processing 41.jpg
+2026-07-20 21:46:49,423 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:49,424 INFO labeled 41.jpg
+2026-07-20 21:46:49,424 INFO processing 42.jpg
+2026-07-20 21:46:54,544 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:54,545 INFO labeled 42.jpg
+2026-07-20 21:46:54,546 INFO processing 43.jpg
+2026-07-20 21:46:59,663 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:46:59,664 INFO labeled 43.jpg
+2026-07-20 21:46:59,664 INFO processing 44.jpg
+2026-07-20 21:47:25,467 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:47:25,469 INFO labeled 44.jpg
+2026-07-20 21:47:25,469 INFO processing 45.jpg
+2026-07-20 21:47:31,303 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:47:31,304 INFO labeled 45.jpg
+2026-07-20 21:47:31,304 INFO processing 46.jpg
+2026-07-20 21:47:36,629 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:47:36,630 INFO labeled 46.jpg
+2026-07-20 21:47:36,630 INFO processing 47.jpg
+2026-07-20 21:47:41,748 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:47:41,750 INFO labeled 47.jpg
+2026-07-20 21:47:41,750 INFO processing 48.jpg
+2026-07-20 21:47:47,073 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:47:47,074 INFO labeled 48.jpg
+2026-07-20 21:47:47,075 INFO processing 49.jpg
+2026-07-20 21:48:00,999 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:48:01,000 INFO labeled 49.jpg
+2026-07-20 21:48:01,000 INFO processing 5.jpg
+2026-07-20 21:48:06,528 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:48:06,530 INFO labeled 5.jpg
+2026-07-20 21:48:06,530 INFO processing 50.jpg
+2026-07-20 21:48:11,806 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:48:11,807 INFO labeled 50.jpg
+2026-07-20 21:48:11,807 INFO processing 51.jpg
+2026-07-20 21:48:18,509 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:48:18,510 INFO labeled 51.jpg
+2026-07-20 21:48:18,510 INFO processing 52.jpg
+2026-07-20 21:48:27,110 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:48:27,111 INFO labeled 52.jpg
+2026-07-20 21:48:27,111 INFO processing 53.jpg
+2026-07-20 21:48:55,883 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:48:55,884 INFO labeled 53.jpg
+2026-07-20 21:48:55,884 INFO processing 54.jpg
+2026-07-20 21:49:06,843 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:06,844 INFO labeled 54.jpg
+2026-07-20 21:49:06,844 INFO processing 55.jpg
+2026-07-20 21:49:12,370 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:12,371 INFO labeled 55.jpg
+2026-07-20 21:49:12,372 INFO processing 56.jpg
+2026-07-20 21:49:17,490 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:17,491 INFO labeled 56.jpg
+2026-07-20 21:49:17,491 INFO processing 57.jpg
+2026-07-20 21:49:27,786 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:27,787 ERROR failed to parse output for ../data_set/57.jpg: no JSON object found in model output
+2026-07-20 21:49:27,787 ERROR no usable label for 57.jpg
+2026-07-20 21:49:27,788 INFO processing 58.jpg
+2026-07-20 21:49:37,150 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:37,151 INFO labeled 58.jpg
+2026-07-20 21:49:37,151 INFO processing 59.jpg
+2026-07-20 21:49:45,546 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:45,548 INFO labeled 59.jpg
+2026-07-20 21:49:45,548 INFO processing 6.jpg
+2026-07-20 21:49:50,667 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:50,668 INFO labeled 6.jpg
+2026-07-20 21:49:50,668 INFO processing 60.jpg
+2026-07-20 21:49:57,221 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:49:57,222 INFO labeled 60.jpg
+2026-07-20 21:49:57,222 INFO processing 61.jpg
+2026-07-20 21:50:16,470 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:50:16,471 INFO labeled 61.jpg
+2026-07-20 21:50:16,471 INFO processing 62.jpg
+2026-07-20 21:50:46,166 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:50:46,167 INFO labeled 62.jpg
+2026-07-20 21:50:46,167 INFO processing 63.jpg
+2026-07-20 21:50:54,357 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:50:54,359 INFO labeled 63.jpg
+2026-07-20 21:50:54,359 INFO processing 64.jpg
+2026-07-20 21:51:09,512 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:51:09,514 INFO labeled 64.jpg
+2026-07-20 21:51:09,514 INFO processing 65.jpg
+2026-07-20 21:51:24,974 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:51:24,975 INFO labeled 65.jpg
+2026-07-20 21:51:24,975 INFO processing 66.jpg
+2026-07-20 21:51:53,926 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:51:53,928 INFO labeled 66.jpg
+2026-07-20 21:51:53,928 INFO processing 67.jpg
+2026-07-20 21:52:24,570 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:52:24,572 INFO labeled 67.jpg
+2026-07-20 21:52:24,572 INFO processing 68.jpg
+2026-07-20 21:52:57,542 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:52:57,544 INFO labeled 68.jpg
+2026-07-20 21:52:57,544 INFO processing 69.jpg
+2026-07-20 21:53:26,623 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:53:26,625 INFO labeled 69.jpg
+2026-07-20 21:53:26,625 INFO processing 7.jpg
+2026-07-20 21:53:31,744 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:53:31,745 INFO labeled 7.jpg
+2026-07-20 21:53:31,745 INFO processing 70.jpg
+2026-07-20 21:53:41,983 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:53:41,984 INFO labeled 70.jpg
+2026-07-20 21:53:41,984 INFO processing 71.jpg
+2026-07-20 21:53:54,346 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:53:54,347 INFO labeled 71.jpg
+2026-07-20 21:53:54,347 INFO processing 72.jpg
+2026-07-20 21:54:03,076 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:54:03,077 INFO labeled 72.jpg
+2026-07-20 21:54:03,077 INFO processing 73.jpg
+2026-07-20 21:54:08,606 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:54:08,608 INFO labeled 73.jpg
+2026-07-20 21:54:08,608 INFO processing 74.jpg
+2026-07-20 21:54:27,958 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:54:27,960 INFO labeled 74.jpg
+2026-07-20 21:54:27,960 INFO processing 75.jpg
+2026-07-20 21:54:54,993 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:54:54,995 INFO labeled 75.jpg
+2026-07-20 21:54:54,995 INFO processing 76.jpg
+2026-07-20 21:54:59,703 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:54:59,704 INFO labeled 76.jpg
+2026-07-20 21:54:59,705 INFO processing 77.jpg
+2026-07-20 21:55:06,255 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:55:06,256 INFO labeled 77.jpg
+2026-07-20 21:55:06,256 INFO processing 78.jpg
+2026-07-20 21:55:11,375 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:55:11,376 INFO labeled 78.jpg
+2026-07-20 21:55:11,376 INFO processing 79.jpg
+2026-07-20 21:55:32,060 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:55:32,062 INFO labeled 79.jpg
+2026-07-20 21:55:32,062 INFO processing 8.jpg
+2026-07-20 21:55:36,771 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:55:36,772 INFO labeled 8.jpg
+2026-07-20 21:55:36,772 INFO processing 80.jpg
+2026-07-20 21:55:49,672 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:55:49,674 INFO labeled 80.jpg
+2026-07-20 21:55:49,674 INFO processing 81.jpg
+2026-07-20 21:56:01,756 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:56:01,757 INFO labeled 81.jpg
+2026-07-20 21:56:01,757 INFO processing 82.jpg
+2026-07-20 21:56:44,763 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:56:44,765 INFO labeled 82.jpg
+2026-07-20 21:56:44,765 INFO processing 83.jpg
+2026-07-20 21:57:13,851 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:57:13,853 INFO labeled 83.jpg
+2026-07-20 21:57:13,853 INFO processing 84.jpg
+2026-07-20 21:57:18,964 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:57:18,966 INFO labeled 84.jpg
+2026-07-20 21:57:18,966 INFO processing 85.jpg
+2026-07-20 21:57:48,255 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:57:48,257 INFO labeled 85.jpg
+2026-07-20 21:57:48,257 INFO processing 86.jpg
+2026-07-20 21:58:01,357 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:58:01,358 INFO labeled 86.jpg
+2026-07-20 21:58:01,358 INFO processing 87.jpg
+2026-07-20 21:58:21,223 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:58:21,224 INFO labeled 87.jpg
+2026-07-20 21:58:21,224 INFO processing 88.jpg
+2026-07-20 21:58:42,422 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:58:42,423 INFO labeled 88.jpg
+2026-07-20 21:58:42,423 INFO processing 89.jpg
+2026-07-20 21:58:54,093 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:58:54,094 INFO labeled 89.jpg
+2026-07-20 21:58:54,094 INFO processing 9.jpg
+2026-07-20 21:59:00,853 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:59:00,854 INFO labeled 9.jpg
+2026-07-20 21:59:00,854 INFO processing 90.jpg
+2026-07-20 21:59:22,150 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:59:22,152 INFO labeled 90.jpg
+2026-07-20 21:59:22,152 INFO processing 91.jpg
+2026-07-20 21:59:36,284 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:59:36,285 INFO labeled 91.jpg
+2026-07-20 21:59:36,285 INFO processing 92.jpg
+2026-07-20 21:59:55,532 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 21:59:55,534 INFO labeled 92.jpg
+2026-07-20 21:59:55,534 INFO processing 93.jpg
+2026-07-20 22:00:04,543 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 22:00:04,544 INFO labeled 93.jpg
+2026-07-20 22:00:04,545 INFO processing 94.jpg
+2026-07-20 22:00:33,419 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 22:00:33,421 INFO labeled 94.jpg
+2026-07-20 22:00:33,421 INFO processing 95.jpg
+2026-07-20 22:01:18,066 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 22:01:18,068 INFO labeled 95.jpg
+2026-07-20 22:01:18,068 INFO processing 96.jpg
+2026-07-20 22:01:36,600 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 22:01:36,601 INFO labeled 96.jpg
+2026-07-20 22:01:36,601 INFO processing 97.jpg
+2026-07-20 22:02:04,659 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 22:02:04,661 INFO labeled 97.jpg
+2026-07-20 22:02:04,661 INFO processing 98.jpg
+2026-07-20 22:02:24,216 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 22:02:24,217 INFO labeled 98.jpg
+2026-07-20 22:02:24,217 INFO processing 99.jpg
+2026-07-20 22:02:47,774 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 22:02:47,776 INFO labeled 99.jpg
+2026-07-20 22:02:47,776 INFO successfully labeled 326 out of 328 images
+2026-07-20 22:02:47,797 INFO saved dataset to ../prepared_dataset
+2026-07-20 23:57:55,310 INFO found 328 images to process
+2026-07-20 23:57:55,310 INFO skipping 10.jpg, already labeled
+2026-07-20 23:57:55,311 INFO skipping 100.jpg, already labeled
+2026-07-20 23:57:55,311 INFO skipping 101.jpg, already labeled
+2026-07-20 23:57:55,311 INFO skipping 102.jpg, already labeled
+2026-07-20 23:57:55,311 INFO skipping 103.jpg, already labeled
+2026-07-20 23:57:55,312 INFO skipping 104.jpg, already labeled
+2026-07-20 23:57:55,312 INFO skipping 105.jpg, already labeled
+2026-07-20 23:57:55,312 INFO skipping 106.jpg, already labeled
+2026-07-20 23:57:55,312 INFO skipping 107.jpg, already labeled
+2026-07-20 23:57:55,312 INFO skipping 108.jpg, already labeled
+2026-07-20 23:57:55,313 INFO skipping 109.jpg, already labeled
+2026-07-20 23:57:55,313 INFO skipping 11.jpg, already labeled
+2026-07-20 23:57:55,313 INFO skipping 110.jpg, already labeled
+2026-07-20 23:57:55,313 INFO skipping 111.jpg, already labeled
+2026-07-20 23:57:55,313 INFO skipping 112.jpg, already labeled
+2026-07-20 23:57:55,314 INFO skipping 113.jpg, already labeled
+2026-07-20 23:57:55,314 INFO skipping 114.jpg, already labeled
+2026-07-20 23:57:55,314 INFO skipping 115.jpg, already labeled
+2026-07-20 23:57:55,314 INFO skipping 116.jpg, already labeled
+2026-07-20 23:57:55,314 INFO skipping 117.jpg, already labeled
+2026-07-20 23:57:55,314 INFO skipping 118.jpg, already labeled
+2026-07-20 23:57:55,315 INFO skipping 119.jpg, already labeled
+2026-07-20 23:57:55,315 INFO skipping 12.jpg, already labeled
+2026-07-20 23:57:55,315 INFO skipping 120.jpg, already labeled
+2026-07-20 23:57:55,315 INFO skipping 121.jpg, already labeled
+2026-07-20 23:57:55,315 INFO skipping 122.jpg, already labeled
+2026-07-20 23:57:55,316 INFO skipping 123.jpg, already labeled
+2026-07-20 23:57:55,316 INFO skipping 124.jpg, already labeled
+2026-07-20 23:57:55,316 INFO skipping 125.jpg, already labeled
+2026-07-20 23:57:55,316 INFO skipping 126.jpg, already labeled
+2026-07-20 23:57:55,316 INFO skipping 127.jpg, already labeled
+2026-07-20 23:57:55,317 INFO skipping 128.jpg, already labeled
+2026-07-20 23:57:55,317 INFO skipping 129.jpg, already labeled
+2026-07-20 23:57:55,317 INFO skipping 13.jpg, already labeled
+2026-07-20 23:57:55,317 INFO skipping 130.jpg, already labeled
+2026-07-20 23:57:55,318 INFO skipping 131.jpg, already labeled
+2026-07-20 23:57:55,318 INFO skipping 132.jpg, already labeled
+2026-07-20 23:57:55,318 INFO skipping 133.jpg, already labeled
+2026-07-20 23:57:55,318 INFO skipping 134.jpg, already labeled
+2026-07-20 23:57:55,318 INFO skipping 135.jpg, already labeled
+2026-07-20 23:57:55,318 INFO skipping 136.jpg, already labeled
+2026-07-20 23:57:55,319 INFO skipping 137.jpg, already labeled
+2026-07-20 23:57:55,319 INFO skipping 138.jpg, already labeled
+2026-07-20 23:57:55,319 INFO skipping 139.jpg, already labeled
+2026-07-20 23:57:55,319 INFO skipping 14.jpg, already labeled
+2026-07-20 23:57:55,319 INFO skipping 140.jpg, already labeled
+2026-07-20 23:57:55,320 INFO skipping 141.jpg, already labeled
+2026-07-20 23:57:55,320 INFO skipping 142.jpg, already labeled
+2026-07-20 23:57:55,320 INFO skipping 143.jpg, already labeled
+2026-07-20 23:57:55,320 INFO skipping 144.jpg, already labeled
+2026-07-20 23:57:55,321 INFO skipping 145.jpg, already labeled
+2026-07-20 23:57:55,321 INFO skipping 146.jpg, already labeled
+2026-07-20 23:57:55,321 INFO skipping 147.jpg, already labeled
+2026-07-20 23:57:55,321 INFO skipping 148.jpg, already labeled
+2026-07-20 23:57:55,321 INFO skipping 149.jpg, already labeled
+2026-07-20 23:57:55,322 INFO skipping 15.jpg, already labeled
+2026-07-20 23:57:55,322 INFO skipping 150.jpg, already labeled
+2026-07-20 23:57:55,322 INFO skipping 151.jpg, already labeled
+2026-07-20 23:57:55,322 INFO skipping 152.jpg, already labeled
+2026-07-20 23:57:55,322 INFO skipping 153.jpg, already labeled
+2026-07-20 23:57:55,322 INFO skipping 154.jpg, already labeled
+2026-07-20 23:57:55,323 INFO skipping 155.jpg, already labeled
+2026-07-20 23:57:55,323 INFO skipping 156.jpg, already labeled
+2026-07-20 23:57:55,323 INFO skipping 157.jpg, already labeled
+2026-07-20 23:57:55,323 INFO skipping 158.jpg, already labeled
+2026-07-20 23:57:55,323 INFO skipping 159.jpg, already labeled
+2026-07-20 23:57:55,324 INFO skipping 16.jpg, already labeled
+2026-07-20 23:57:55,324 INFO skipping 160.jpg, already labeled
+2026-07-20 23:57:55,324 INFO skipping 161.jpg, already labeled
+2026-07-20 23:57:55,324 INFO skipping 162.jpg, already labeled
+2026-07-20 23:57:55,324 INFO skipping 163.jpg, already labeled
+2026-07-20 23:57:55,324 INFO skipping 164.jpg, already labeled
+2026-07-20 23:57:55,325 INFO skipping 165.jpg, already labeled
+2026-07-20 23:57:55,325 INFO skipping 166.jpg, already labeled
+2026-07-20 23:57:55,325 INFO skipping 167.jpg, already labeled
+2026-07-20 23:57:55,325 INFO skipping 168.jpg, already labeled
+2026-07-20 23:57:55,325 INFO skipping 169.jpg, already labeled
+2026-07-20 23:57:55,326 INFO skipping 17.jpg, already labeled
+2026-07-20 23:57:55,326 INFO skipping 170.jpg, already labeled
+2026-07-20 23:57:55,326 INFO skipping 171.jpg, already labeled
+2026-07-20 23:57:55,326 INFO skipping 172.jpg, already labeled
+2026-07-20 23:57:55,326 INFO skipping 173.jpg, already labeled
+2026-07-20 23:57:55,327 INFO skipping 174.jpg, already labeled
+2026-07-20 23:57:55,327 INFO skipping 175.jpg, already labeled
+2026-07-20 23:57:55,327 INFO skipping 176.jpg, already labeled
+2026-07-20 23:57:55,327 INFO skipping 177.jpg, already labeled
+2026-07-20 23:57:55,327 INFO skipping 178.jpg, already labeled
+2026-07-20 23:57:55,327 INFO skipping 179.jpg, already labeled
+2026-07-20 23:57:55,328 INFO skipping 18.jpg, already labeled
+2026-07-20 23:57:55,328 INFO skipping 180.jpg, already labeled
+2026-07-20 23:57:55,328 INFO processing 181.jpg
+2026-07-20 23:59:17,248 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 23:59:17,277 ERROR failed to parse output for /home/ishan/Desktop/Projects/Inventory.ai/data_set/181.jpg: Expecting ',' delimiter: line 789 column 6 (char 20820)
+2026-07-20 23:59:17,285 ERROR no usable label for 181.jpg
+2026-07-20 23:59:17,285 INFO skipping 182.jpg, already labeled
+2026-07-20 23:59:17,286 INFO skipping 183.jpg, already labeled
+2026-07-20 23:59:17,286 INFO skipping 184.jpg, already labeled
+2026-07-20 23:59:17,286 INFO skipping 185.jpg, already labeled
+2026-07-20 23:59:17,287 INFO skipping 186.jpg, already labeled
+2026-07-20 23:59:17,287 INFO skipping 187.jpg, already labeled
+2026-07-20 23:59:17,287 INFO skipping 188.jpg, already labeled
+2026-07-20 23:59:17,287 INFO skipping 189.jpg, already labeled
+2026-07-20 23:59:17,287 INFO skipping 19.jpg, already labeled
+2026-07-20 23:59:17,288 INFO skipping 190.jpg, already labeled
+2026-07-20 23:59:17,288 INFO skipping 191.jpg, already labeled
+2026-07-20 23:59:17,288 INFO skipping 192.jpg, already labeled
+2026-07-20 23:59:17,288 INFO skipping 193.jpg, already labeled
+2026-07-20 23:59:17,288 INFO skipping 194.jpg, already labeled
+2026-07-20 23:59:17,289 INFO skipping 195.jpg, already labeled
+2026-07-20 23:59:17,289 INFO skipping 196.jpg, already labeled
+2026-07-20 23:59:17,289 INFO skipping 197.jpg, already labeled
+2026-07-20 23:59:17,289 INFO skipping 198.jpg, already labeled
+2026-07-20 23:59:17,290 INFO skipping 199.jpg, already labeled
+2026-07-20 23:59:17,290 INFO skipping 2.jpg, already labeled
+2026-07-20 23:59:17,290 INFO skipping 20.jpg, already labeled
+2026-07-20 23:59:17,290 INFO skipping 200.jpg, already labeled
+2026-07-20 23:59:17,290 INFO skipping 201.jpg, already labeled
+2026-07-20 23:59:17,291 INFO skipping 202.jpg, already labeled
+2026-07-20 23:59:17,291 INFO skipping 203.jpg, already labeled
+2026-07-20 23:59:17,291 INFO skipping 204.jpg, already labeled
+2026-07-20 23:59:17,291 INFO skipping 205.jpg, already labeled
+2026-07-20 23:59:17,291 INFO skipping 206.jpg, already labeled
+2026-07-20 23:59:17,292 INFO skipping 207.jpg, already labeled
+2026-07-20 23:59:17,292 INFO skipping 208.jpg, already labeled
+2026-07-20 23:59:17,292 INFO skipping 209.jpg, already labeled
+2026-07-20 23:59:17,292 INFO skipping 21.jpg, already labeled
+2026-07-20 23:59:17,292 INFO skipping 210.jpg, already labeled
+2026-07-20 23:59:17,292 INFO skipping 211.jpg, already labeled
+2026-07-20 23:59:17,293 INFO skipping 212.jpg, already labeled
+2026-07-20 23:59:17,293 INFO skipping 213.jpg, already labeled
+2026-07-20 23:59:17,293 INFO skipping 214.jpg, already labeled
+2026-07-20 23:59:17,293 INFO skipping 215.jpg, already labeled
+2026-07-20 23:59:17,293 INFO skipping 216.jpg, already labeled
+2026-07-20 23:59:17,293 INFO skipping 217.jpg, already labeled
+2026-07-20 23:59:17,294 INFO skipping 218.jpg, already labeled
+2026-07-20 23:59:17,294 INFO skipping 219.jpg, already labeled
+2026-07-20 23:59:17,294 INFO skipping 22.jpg, already labeled
+2026-07-20 23:59:17,294 INFO skipping 220.jpg, already labeled
+2026-07-20 23:59:17,294 INFO skipping 221.jpg, already labeled
+2026-07-20 23:59:17,295 INFO skipping 222.jpg, already labeled
+2026-07-20 23:59:17,295 INFO skipping 223.jpg, already labeled
+2026-07-20 23:59:17,295 INFO skipping 224.jpg, already labeled
+2026-07-20 23:59:17,295 INFO skipping 225.jpg, already labeled
+2026-07-20 23:59:17,295 INFO skipping 226.jpg, already labeled
+2026-07-20 23:59:17,296 INFO skipping 227.jpg, already labeled
+2026-07-20 23:59:17,296 INFO skipping 228.jpg, already labeled
+2026-07-20 23:59:17,296 INFO skipping 229.jpg, already labeled
+2026-07-20 23:59:17,296 INFO skipping 23.jpg, already labeled
+2026-07-20 23:59:17,296 INFO skipping 230.jpg, already labeled
+2026-07-20 23:59:17,296 INFO skipping 231.jpg, already labeled
+2026-07-20 23:59:17,297 INFO skipping 232.jpg, already labeled
+2026-07-20 23:59:17,297 INFO skipping 233.jpg, already labeled
+2026-07-20 23:59:17,297 INFO skipping 234.jpg, already labeled
+2026-07-20 23:59:17,297 INFO skipping 235.jpg, already labeled
+2026-07-20 23:59:17,297 INFO skipping 236.jpg, already labeled
+2026-07-20 23:59:17,298 INFO skipping 237.jpg, already labeled
+2026-07-20 23:59:17,298 INFO skipping 238.jpg, already labeled
+2026-07-20 23:59:17,298 INFO skipping 239.jpg, already labeled
+2026-07-20 23:59:17,298 INFO skipping 24.jpg, already labeled
+2026-07-20 23:59:17,298 INFO skipping 240.jpg, already labeled
+2026-07-20 23:59:17,299 INFO skipping 241.jpg, already labeled
+2026-07-20 23:59:17,299 INFO skipping 242.jpg, already labeled
+2026-07-20 23:59:17,299 INFO skipping 243.jpg, already labeled
+2026-07-20 23:59:17,299 INFO skipping 244.jpg, already labeled
+2026-07-20 23:59:17,299 INFO skipping 245.jpg, already labeled
+2026-07-20 23:59:17,300 INFO skipping 246.jpg, already labeled
+2026-07-20 23:59:17,300 INFO skipping 247.jpg, already labeled
+2026-07-20 23:59:17,300 INFO skipping 248.jpg, already labeled
+2026-07-20 23:59:17,300 INFO skipping 249.jpg, already labeled
+2026-07-20 23:59:17,300 INFO skipping 25.jpg, already labeled
+2026-07-20 23:59:17,301 INFO skipping 250.jpg, already labeled
+2026-07-20 23:59:17,301 INFO skipping 251.jpg, already labeled
+2026-07-20 23:59:17,301 INFO skipping 252.jpg, already labeled
+2026-07-20 23:59:17,301 INFO skipping 253.jpg, already labeled
+2026-07-20 23:59:17,301 INFO skipping 254.jpg, already labeled
+2026-07-20 23:59:17,302 INFO skipping 255.jpg, already labeled
+2026-07-20 23:59:17,302 INFO skipping 256.jpg, already labeled
+2026-07-20 23:59:17,302 INFO skipping 257.jpg, already labeled
+2026-07-20 23:59:17,302 INFO skipping 258.jpg, already labeled
+2026-07-20 23:59:17,302 INFO skipping 259.jpg, already labeled
+2026-07-20 23:59:17,303 INFO skipping 26.jpg, already labeled
+2026-07-20 23:59:17,303 INFO skipping 260.jpg, already labeled
+2026-07-20 23:59:17,303 INFO skipping 261.jpg, already labeled
+2026-07-20 23:59:17,303 INFO skipping 262.jpg, already labeled
+2026-07-20 23:59:17,303 INFO skipping 263.jpg, already labeled
+2026-07-20 23:59:17,304 INFO skipping 264.jpg, already labeled
+2026-07-20 23:59:17,304 INFO skipping 265.jpg, already labeled
+2026-07-20 23:59:17,304 INFO skipping 266.jpg, already labeled
+2026-07-20 23:59:17,304 INFO skipping 267.jpg, already labeled
+2026-07-20 23:59:17,304 INFO skipping 268.jpg, already labeled
+2026-07-20 23:59:17,305 INFO skipping 269.jpg, already labeled
+2026-07-20 23:59:17,305 INFO skipping 27.jpg, already labeled
+2026-07-20 23:59:17,305 INFO skipping 270.jpg, already labeled
+2026-07-20 23:59:17,305 INFO skipping 271.jpg, already labeled
+2026-07-20 23:59:17,305 INFO skipping 272.jpg, already labeled
+2026-07-20 23:59:17,306 INFO skipping 273.jpg, already labeled
+2026-07-20 23:59:17,306 INFO skipping 274.jpg, already labeled
+2026-07-20 23:59:17,306 INFO skipping 275.jpg, already labeled
+2026-07-20 23:59:17,306 INFO skipping 276.jpg, already labeled
+2026-07-20 23:59:17,306 INFO skipping 277.jpg, already labeled
+2026-07-20 23:59:17,307 INFO skipping 278.jpg, already labeled
+2026-07-20 23:59:17,307 INFO skipping 279.jpg, already labeled
+2026-07-20 23:59:17,307 INFO skipping 28.jpg, already labeled
+2026-07-20 23:59:17,307 INFO skipping 280.jpg, already labeled
+2026-07-20 23:59:17,307 INFO skipping 281.jpg, already labeled
+2026-07-20 23:59:17,307 INFO skipping 282.jpg, already labeled
+2026-07-20 23:59:17,308 INFO skipping 283.jpg, already labeled
+2026-07-20 23:59:17,308 INFO skipping 284.jpg, already labeled
+2026-07-20 23:59:17,308 INFO skipping 285.jpg, already labeled
+2026-07-20 23:59:17,308 INFO skipping 286.jpg, already labeled
+2026-07-20 23:59:17,308 INFO skipping 287.jpg, already labeled
+2026-07-20 23:59:17,309 INFO skipping 288.jpg, already labeled
+2026-07-20 23:59:17,309 INFO skipping 289.jpg, already labeled
+2026-07-20 23:59:17,309 INFO skipping 29.jpg, already labeled
+2026-07-20 23:59:17,309 INFO skipping 290.jpg, already labeled
+2026-07-20 23:59:17,309 INFO skipping 291.jpg, already labeled
+2026-07-20 23:59:17,310 INFO skipping 292.jpg, already labeled
+2026-07-20 23:59:17,310 INFO skipping 293.jpg, already labeled
+2026-07-20 23:59:17,310 INFO skipping 294.jpg, already labeled
+2026-07-20 23:59:17,310 INFO skipping 295.jpg, already labeled
+2026-07-20 23:59:17,311 INFO skipping 296.jpg, already labeled
+2026-07-20 23:59:17,311 INFO skipping 297.jpg, already labeled
+2026-07-20 23:59:17,311 INFO skipping 298.jpg, already labeled
+2026-07-20 23:59:17,311 INFO skipping 299.jpg, already labeled
+2026-07-20 23:59:17,311 INFO skipping 3.jpg, already labeled
+2026-07-20 23:59:17,311 INFO skipping 30.jpg, already labeled
+2026-07-20 23:59:17,312 INFO skipping 300.jpg, already labeled
+2026-07-20 23:59:17,312 INFO skipping 301.jpg, already labeled
+2026-07-20 23:59:17,312 INFO skipping 302.jpg, already labeled
+2026-07-20 23:59:17,312 INFO skipping 303.jpg, already labeled
+2026-07-20 23:59:17,312 INFO skipping 304.jpg, already labeled
+2026-07-20 23:59:17,313 INFO skipping 305.jpg, already labeled
+2026-07-20 23:59:17,313 INFO skipping 306.jpg, already labeled
+2026-07-20 23:59:17,313 INFO skipping 307.jpg, already labeled
+2026-07-20 23:59:17,313 INFO skipping 308.jpg, already labeled
+2026-07-20 23:59:17,313 INFO skipping 309.jpg, already labeled
+2026-07-20 23:59:17,314 INFO skipping 31.jpg, already labeled
+2026-07-20 23:59:17,314 INFO skipping 310.jpg, already labeled
+2026-07-20 23:59:17,314 INFO skipping 311.jpg, already labeled
+2026-07-20 23:59:17,314 INFO skipping 312.jpg, already labeled
+2026-07-20 23:59:17,314 INFO skipping 313.jpg, already labeled
+2026-07-20 23:59:17,315 INFO skipping 314.jpg, already labeled
+2026-07-20 23:59:17,315 INFO skipping 315.jpg, already labeled
+2026-07-20 23:59:17,315 INFO skipping 316.jpg, already labeled
+2026-07-20 23:59:17,315 INFO skipping 317.jpg, already labeled
+2026-07-20 23:59:17,315 INFO skipping 318.jpg, already labeled
+2026-07-20 23:59:17,315 INFO skipping 319.jpg, already labeled
+2026-07-20 23:59:17,316 INFO skipping 32.jpg, already labeled
+2026-07-20 23:59:17,316 INFO skipping 320.jpg, already labeled
+2026-07-20 23:59:17,316 INFO skipping 321.jpg, already labeled
+2026-07-20 23:59:17,316 INFO skipping 322.jpg, already labeled
+2026-07-20 23:59:17,316 INFO skipping 323.jpg, already labeled
+2026-07-20 23:59:17,317 INFO skipping 324.jpg, already labeled
+2026-07-20 23:59:17,317 INFO skipping 325.jpg, already labeled
+2026-07-20 23:59:17,317 INFO skipping 326.jpg, already labeled
+2026-07-20 23:59:17,317 INFO skipping 327.jpg, already labeled
+2026-07-20 23:59:17,317 INFO skipping 328.jpg, already labeled
+2026-07-20 23:59:17,318 INFO skipping 329.jpg, already labeled
+2026-07-20 23:59:17,318 INFO skipping 33.jpg, already labeled
+2026-07-20 23:59:17,318 INFO skipping 34.jpg, already labeled
+2026-07-20 23:59:17,318 INFO skipping 35.jpg, already labeled
+2026-07-20 23:59:17,318 INFO skipping 36.jpg, already labeled
+2026-07-20 23:59:17,318 INFO skipping 37.jpg, already labeled
+2026-07-20 23:59:17,319 INFO skipping 38.jpg, already labeled
+2026-07-20 23:59:17,319 INFO skipping 39.jpg, already labeled
+2026-07-20 23:59:17,319 INFO skipping 4.jpg, already labeled
+2026-07-20 23:59:17,319 INFO skipping 40.jpg, already labeled
+2026-07-20 23:59:17,319 INFO skipping 41.jpg, already labeled
+2026-07-20 23:59:17,320 INFO skipping 42.jpg, already labeled
+2026-07-20 23:59:17,320 INFO skipping 43.jpg, already labeled
+2026-07-20 23:59:17,320 INFO skipping 44.jpg, already labeled
+2026-07-20 23:59:17,320 INFO skipping 45.jpg, already labeled
+2026-07-20 23:59:17,320 INFO skipping 46.jpg, already labeled
+2026-07-20 23:59:17,320 INFO skipping 47.jpg, already labeled
+2026-07-20 23:59:17,321 INFO skipping 48.jpg, already labeled
+2026-07-20 23:59:17,321 INFO skipping 49.jpg, already labeled
+2026-07-20 23:59:17,321 INFO skipping 5.jpg, already labeled
+2026-07-20 23:59:17,321 INFO skipping 50.jpg, already labeled
+2026-07-20 23:59:17,321 INFO skipping 51.jpg, already labeled
+2026-07-20 23:59:17,321 INFO skipping 52.jpg, already labeled
+2026-07-20 23:59:17,322 INFO skipping 53.jpg, already labeled
+2026-07-20 23:59:17,322 INFO skipping 54.jpg, already labeled
+2026-07-20 23:59:17,322 INFO skipping 55.jpg, already labeled
+2026-07-20 23:59:17,322 INFO skipping 56.jpg, already labeled
+2026-07-20 23:59:17,323 INFO processing 57.jpg
+2026-07-20 23:59:24,976 INFO HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-20 23:59:24,985 INFO labeled 57.jpg
+2026-07-20 23:59:24,985 INFO skipping 58.jpg, already labeled
+2026-07-20 23:59:24,985 INFO skipping 59.jpg, already labeled
+2026-07-20 23:59:24,986 INFO skipping 6.jpg, already labeled
+2026-07-20 23:59:24,986 INFO skipping 60.jpg, already labeled
+2026-07-20 23:59:24,986 INFO skipping 61.jpg, already labeled
+2026-07-20 23:59:24,986 INFO skipping 62.jpg, already labeled
+2026-07-20 23:59:24,987 INFO skipping 63.jpg, already labeled
+2026-07-20 23:59:24,987 INFO skipping 64.jpg, already labeled
+2026-07-20 23:59:24,987 INFO skipping 65.jpg, already labeled
+2026-07-20 23:59:24,987 INFO skipping 66.jpg, already labeled
+2026-07-20 23:59:24,987 INFO skipping 67.jpg, already labeled
+2026-07-20 23:59:24,988 INFO skipping 68.jpg, already labeled
+2026-07-20 23:59:24,988 INFO skipping 69.jpg, already labeled
+2026-07-20 23:59:24,988 INFO skipping 7.jpg, already labeled
+2026-07-20 23:59:24,988 INFO skipping 70.jpg, already labeled
+2026-07-20 23:59:24,988 INFO skipping 71.jpg, already labeled
+2026-07-20 23:59:24,989 INFO skipping 72.jpg, already labeled
+2026-07-20 23:59:24,989 INFO skipping 73.jpg, already labeled
+2026-07-20 23:59:24,989 INFO skipping 74.jpg, already labeled
+2026-07-20 23:59:24,989 INFO skipping 75.jpg, already labeled
+2026-07-20 23:59:24,989 INFO skipping 76.jpg, already labeled
+2026-07-20 23:59:24,990 INFO skipping 77.jpg, already labeled
+2026-07-20 23:59:24,990 INFO skipping 78.jpg, already labeled
+2026-07-20 23:59:24,990 INFO skipping 79.jpg, already labeled
+2026-07-20 23:59:24,990 INFO skipping 8.jpg, already labeled
+2026-07-20 23:59:24,990 INFO skipping 80.jpg, already labeled
+2026-07-20 23:59:24,990 INFO skipping 81.jpg, already labeled
+2026-07-20 23:59:24,991 INFO skipping 82.jpg, already labeled
+2026-07-20 23:59:24,991 INFO skipping 83.jpg, already labeled
+2026-07-20 23:59:24,991 INFO skipping 84.jpg, already labeled
+2026-07-20 23:59:24,991 INFO skipping 85.jpg, already labeled
+2026-07-20 23:59:24,992 INFO skipping 86.jpg, already labeled
+2026-07-20 23:59:24,992 INFO skipping 87.jpg, already labeled
+2026-07-20 23:59:24,992 INFO skipping 88.jpg, already labeled
+2026-07-20 23:59:24,992 INFO skipping 89.jpg, already labeled
+2026-07-20 23:59:24,992 INFO skipping 9.jpg, already labeled
+2026-07-20 23:59:24,993 INFO skipping 90.jpg, already labeled
+2026-07-20 23:59:24,993 INFO skipping 91.jpg, already labeled
+2026-07-20 23:59:24,993 INFO skipping 92.jpg, already labeled
+2026-07-20 23:59:24,993 INFO skipping 93.jpg, already labeled
+2026-07-20 23:59:24,993 INFO skipping 94.jpg, already labeled
+2026-07-20 23:59:24,994 INFO skipping 95.jpg, already labeled
+2026-07-20 23:59:24,994 INFO skipping 96.jpg, already labeled
+2026-07-20 23:59:24,994 INFO skipping 97.jpg, already labeled
+2026-07-20 23:59:24,994 INFO skipping 98.jpg, already labeled
+2026-07-20 23:59:24,994 INFO skipping 99.jpg, already labeled
+2026-07-20 23:59:24,994 INFO successfully labeled 327 out of 328 images
+2026-07-20 23:59:25,004 INFO saved dataset to ../prepared_dataset
