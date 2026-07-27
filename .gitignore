@@ -1,2 +1,9 @@
 data_set/
 labels/
+
+__pycache__/
+*.pyc
+data_set/
+prepared_dataset/
+checkpoints/
+*.log
